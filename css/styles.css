@@ -1,0 +1,320 @@
+/* Setting a few things to zero */
+body, html, h1, h2, h3, h4, h5, h6, div, ol, ul, li, ul li, li a, dl, dt, dd, form, fieldset, input, img, p, a {
+	margin:0;
+	padding:0;
+}
+
+ul, li {
+	list-style:none;
+
+}
+
+table, tr, td, th {
+	empty-cells: show;
+	border-collapse:collapse;
+}
+
+img {
+	border:none;
+}
+
+/* min-width hack soooooo nececesarry! thank you JB */
+* html .container {
+	margin-left: -800px;
+	position: relative;
+}
+
+.width {
+	width: 98%;
+	margin:0 auto;
+	min-width: 800px;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+
+* html .minwidth {
+	padding-left: 800px;
+}
+
+/*\*/
+* html .minwidth, * html .layout, * html .container, * html .content {
+	height: 1px;
+}
+/**/
+
+/* Set the default font-size in the body tag and on all your elements to 100% */
+body, p, h1, h2, h3, h4, h5, h6, td, li, li li, td li, td p, table tr td table tr td, tr td table tr td  {
+	font-size: 100%;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.clear {
+	height:1px;
+	width:100%;
+	clear:both;
+}
+
+.hidden {
+	visibility:hidden;
+}
+
+/* begin template styles */
+body {
+	text-align: center;
+	background-color:#eef;
+}
+
+#wrapper {
+	background-color:#fff;
+	width: 850px;
+	margin-right: auto;
+	margin-left: auto;
+	border-left:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	border-right:1px solid #ccc;
+        position: relative;
+}
+ 
+#masthead {
+	height: 145px;
+	border-bottom:2px solid #999;
+	background-color:#fff;
+}
+
+#masthead h1 {
+	font-family:verdana, sans-serif;
+	font-size:1.7em;
+	color:#669;
+	background-color: #fff;
+	padding-top: 1.2em;
+	padding-right: 2em;
+}
+
+#masthead h2 {
+	font-family:verdana, sans-serif;
+	color:#669;
+}
+#logoimg {
+	float:left;
+	width:140px;
+	height:140px;
+}
+
+#logotext {
+	padding-top: .2em;
+}
+
+#toolsnav {
+	font-size:.7em;
+	margin-top:-8.5em;
+	margin-right:.9em;
+	text-align: right;
+}
+ 
+#searchform {
+	margin-top:-8em;
+	margin-right:.7em;
+	font-size:.6em;
+	text-align: right;
+	vertical-align: middle;
+}
+
+#searchform .searchbox {
+	border:1px solid #669;
+	width:95px;
+	height:15px;
+    	font-family:arial, helvetica, sans-serif;
+    	color:#669;
+	font-size:1.1em;
+	vertical-align: middle;
+}
+
+#searchform .searchsubmit {
+	align:top;
+	vertical-align: middle;
+}
+
+#leftcolumn {
+	float:left;
+	width:150px;
+	background-color:#fff;
+}
+
+#leftcolumn img.logo {
+	width:120px;
+	height:120px;
+}
+
+#mainnav {
+	width:140px;
+	text-align:left;
+	position: relative;
+}
+
+#mainnav a, #mainnav a:link, #mainnav a:visited {
+	color:#669;
+}
+
+
+#mainnav a:hover, #mainnav a:active {
+	color:#f3a31b;
+}
+
+#mainnav ul {
+	padding-top:.4em;
+}
+
+#mainnav li {
+	/*border-bottom:1px solid #c0c0c0;*/
+	line-height:.85em;
+	padding: .55em .6em;
+	font-weight:bold;
+	font-size:.9em;
+}
+
+#mainnav li span{
+	/*background: #fff url("../img/bullet_style1.gif") no-repeat -.2em .25em;*/
+	line-height:.85em;
+	/*padding: .2em .5em .2em .1em;*/
+	font-weight:bold;
+	font-size:1em;
+}
+
+a.dl:hover {
+	background: #fff url("../img/re/chunk8-orange") no-repeat -.2em .25em;
+}
+
+#mainnav li ul li {
+	padding: .25em 0;
+}
+
+
+#mainnav li a {
+    line-height: 0.6em;
+    padding-left: 0.6em;
+    color: #666;
+    background: transparent url(../img/bullet_style1.gif) no-repeat -0.3em .15em;
+}
+
+#mainnav li a.on, #mainnav li a:visited.on {
+	color:#669;
+	font-weight:bold;
+}
+
+#mainnav a:hover, #mainnav a:active {
+	color:#e61;
+}
+
+#mainnav ul li ul {
+	margin:.2em 0 0 0;
+	padding: .15em 0;
+	border-right:none;
+	border-top:none;
+}
+
+#mainnav ul li ul li {
+	background: transparent url("../img/bullet_style1.gif") no-repeat -.2em .15em;
+	font-size:.9em;
+	font-weight:normal;
+	border-bottom:none;
+	line-height:.75em;
+}
+
+#mainnav ul li ul li a {
+	padding-left:.8em;
+}
+
+#mainpagebody {
+	float:left;
+	width:640px;
+	text-align:left;
+	border-left: 1px solid #c0c0c0;
+}
+
+.focalcontent {
+	background-color:#fff;
+	width:695px;
+	float:left;
+}
+
+img.focalimage {
+	width:612px;
+	padding-left:1em;
+
+}
+.focalcontent ul {
+	padding-top:.2em;
+	padding-left:1em;
+}
+
+.focalcontent li {
+	background: #fff url("../img/bullet_style1.gif") no-repeat -.2em .25em;
+	line-height:1em;
+	padding: .55em .6em;
+}
+
+.focalcontent h1 {
+	font-weight:bold;
+	padding:0 1em 0 .9em;
+	margin:0;
+	font-size:1.6em;
+	color:#669;
+	text-align:center;
+	padding-top:.8em;
+	padding-bottom:.8em;
+} 
+.focalcontent h2 {
+	font-weight:bold;
+	padding:0 1em 0.7em 0.7em;
+	margin:0;
+	font-size:1.25em;
+	color:#669;
+}
+
+.focalcontent p {
+    padding: .4em 3em 0.7em 1em;
+    font-size: 1em;
+    line-height: 1.3em;
+}
+
+.focalcontent p span{
+	font-size:.9em;
+	color:#669;
+}
+
+.focalcontent p.more a {
+	background: transparent url(../img/bullet_more2.gif) no-repeat 0 -.2em;
+	padding: 0 .75em 5.0em 3.0em;
+	/*margin:0 .5em 1em 0;*/
+}
+
+.focalcontent p.more a.border {
+	border-right:1px solid #669;
+	padding: 0 .75em 5.0em 3.0em;
+}
+
+#mission p {
+	font-size:.9em;
+
+}
+#mission p span{
+ 	font-weight:bold;
+	color:#669;
+	font-size:1.4em;
+}
+
+/* footer */  
+#footer {
+ 	background-color:#fff;
+	padding: .4em 0em 0.5em 0em;
+	border-top:1px solid #999;
+}
+
+#footer p {
+ 	font-size:.7em;
+	color:#999;
+}
