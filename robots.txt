@@ -1,0 +1,10 @@
+User-agent: *
+Crawl-delay: 10
+Disallow: /Downloads/Release
+Disallow: /Downloads/Data
+Disallow: /Downloads/External
+Disallow: /Downloads/Nightly
+Disallow: /Downloads/Patches
+Disallow: /Downloads/Snapshots
+Disallow: /source
+
