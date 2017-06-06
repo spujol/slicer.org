@@ -1,0 +1,3 @@
+The gh-pages branch of this repository is used for the static content at the root of https://slicer.org
+
+Commits to this branch will automatically be pulled into the live site so that you don't need to get onto the server in order to make changes.
