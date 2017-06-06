@@ -1,0 +1,22 @@
+Use .htaccess ONLY for testing rules on-the-fly during development
+so that you don't have to constantly reload Apache.
+
+Once the rule is tested and works, it should be placed into the
+proper Virtual Host configuration file.
+e.g. /etc/apache2/sites-available/foo.conf
+
+This is because the conf gets loaded into memory once during
+startup whereas the .htaccess file needs to be loaded
+FROM DISK on every single request. This slows a web
+server. So, don't even leave .htaccess files lying around
+empty. Nuke 'em.
+
+See https://httpd.apache.org/docs/2.4/rewrite/tech.html
+about the differences between per-directory context.
+Basically, the path as seen in .conf will start with /
+whereas the path as seen by .htaccess in / will have the
+leading slash stripped already. That's why we use ^/?
+to make rules work in both contexts. But rules further down
+the filesystem hierarchy will have a greater difference
+between the .conf version and the .htaccess version (or 
+you can place the rules in a <directory> stanza)
