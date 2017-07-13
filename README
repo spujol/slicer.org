@@ -1,4 +1,4 @@
-The gh-pages branch of this repository is used for the static content at the root of https://slicer.org
+The slicer-org branch of this repository is used for the static content at the root of https://slicer.org
 
 Commits to this branch will automatically be pulled into the live site so that you don't need to get onto the server in order to make changes.
 
@@ -7,7 +7,7 @@ cd ~/work
 git clone https://github.com/Slicer/slicer.org.git
 cd slicer.org
 for remote in `git branch -r | grep -v \>`; do git branch --track ${remote#origin/} $remote; done
-git checkout gh-pages
+git checkout slicer-org
 git config --global push.default simple
 git status
 git branch
