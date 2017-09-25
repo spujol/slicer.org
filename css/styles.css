@@ -85,6 +85,12 @@ body {
 	background-color:#fff;
 }
 
+#slicerverse {
+	border-bottom:2px solid #999;
+	padding-bottom: .2em;
+	padding-top: .2em;
+}
+
 #masthead h1 {
 	font-family:verdana, sans-serif;
 	font-size:1.7em;
