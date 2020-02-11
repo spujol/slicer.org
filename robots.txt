@@ -1,2 +1,5 @@
 User-agent: *
 Crawl-delay: 10
+Disallow: /slicer3-downloads
+Disallow: /doc
+Disallow: /download_files
