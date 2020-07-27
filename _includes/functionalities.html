@@ -1,0 +1,14 @@
+<div class="columns  is-vcentered is-centered">
+    <div class="column">
+      <div class="row has-text-centered">
+        <h2>{{ page.functionalities_title }}</h2>
+        <p>{{ page.functionalities_description }}</p>
+      </div>
+      <div class="row">
+        {% for item in page.functionalities_list %}
+        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          {{ item.item }} <br>
+        {% endfor %}
+      </div>
+    </div>
+</div>

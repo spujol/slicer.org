@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+</body>
+{% unless page.hide_navbar %}
+    {% include header.html %}
+{% endunless %}
+
+<div class="site-wrapper">
+  {% include hero.html %}
+  <section class="about section-padding" id="About-Section">
+    <div class="container">
+      <div class="content">
+        {% include about.html %}
+      </div>
+    </div>
+  </section>
+  <section class="functionalities section-padding">
+    <div class="container">
+      <div class="content">
+        {% include functionalities.html %}
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container is-fluid extensions">
+      <div class="content">
+        {% include extensions.html %}
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container solutions section-padding">
+      <div class="content">
+        {% include solutions.html %}
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container is-fluid commercial-use section-padding">
+      <div class="content">
+        {% include commercial-use.html %}
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container community section-padding">
+      <div class="content">
+        {% include community.html %}
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container is-fluid sitemap section-padding">
+      <div class="content">
+        {% include sitemap.html %}
+      </div>
+    </div>
+  </section>
+    <section class="footer">
+    <div class="container">
+      <div class="content">
+        {% include footer.html %}
+      </div>
+    </div>
+  </section>
+</div>
+
+</body>
+
+</html>

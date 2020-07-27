@@ -1,0 +1,34 @@
+- name: About
+  link: #About-Section
+- name: Resources
+  link: /#
+  dropdown:
+    - name: Download Page
+      link: "https://download.slicer.org/"
+    - name: Slicer Training
+      link: "https://www.slicer.org/wiki/Documentation/4.10/Training"
+    - name: User Manual
+      link: "https://www.slicer.org/wiki/Documentation/4.10"
+    - name: Developer Resources
+      link: "https://www.slicer.org/wiki/Documentation/Nightly/Developers"
+- name: Solutions
+  link: /#
+  dropdown:
+    - name: Slicer Salt
+      link: "http://salt.slicer.org/"
+    - name: Slicer Astro
+      link: "https://github.com/Punzo/SlicerAstro/wiki"
+    - name: SlicerIGT
+      link: "http://www.slicerigt.org/wp/"
+    - name: SlicerRT
+      link: "http://slicerrt.github.io/"
+    - name: SlicerDMRI
+      link: "http://dmri.slicer.org/"
+    - name: SlicerCMF
+      link: "http://cmf.slicer.org/"
+    - name: Chest Imaging Platform
+      link: "https://chestimagingplatform.org/"
+- name: Community
+  link: "community" #"https://discourse.slicer.org/"
+- name: Contact
+  link: "https://www.kitware.com/contact-us/"

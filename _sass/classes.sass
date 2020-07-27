@@ -1,0 +1,81 @@
+
+// Site Structure ====================================
+.site-wrapper
+  min-height: calc(100vh - #{$header-height + $footer-height}) // to keep footer at page bottom.
+
+// general classes ================================
+.button:hover
+  background-color: white
+  border-width: 2px
+
+.section-padding
+  padding-top: 50px
+  padding-bottom: 50px
+
+// nav ================================
+.navbar:before
+  background: linear-gradient(to right, $logo-color-yellow 0%,$logo-color-yellow 20%,$logo-color-orange 20%, $logo-color-orange 40%, $logo-color-red 40%, $logo-color-red 65%, $logo-color-green 60%, $logo-color-green 80%, $logo-color-blue 80%, $logo-color-blue 100%)
+  content: ''
+  height: 5px
+  position: absolute
+  left: 0
+  right: 0
+  top: 0
+
+// Hero section ====================================
+.hero
+  background: linear-gradient(white, $bg-color-light-grey)
+
+.hero-logo
+  max-width: 250px
+
+.hero-button
+  width: 240px
+  background-color: $logo-color-orange
+
+.hero-hr
+  border: 1px solid rgba($primary,.1)
+  margin-top: 10px 0px 20px
+
+.highlight-text
+  color: $logo-color-orange
+
+// about ====================================
+.about
+  color: $text-color
+
+  // functionalities ====================================
+.functionalities
+  background-color: $bg-color-light-grey
+  box-shadow: 0 5px 20px rgba(0, 0, 0, .2)
+  color: $text-color
+
+// extensions ====================================
+.extensions
+    &::before
+      background: #000
+      content: ''
+      height: 100%
+      left: 0
+      opacity: .5
+      position: absolute
+      width: 100%
+      z-index: 1
+
+// solutions ====================================
+.solutions
+
+
+// commercial use ====================================
+.commercial-use
+  background-color: $bg-color-light-green
+  box-shadow: 0 5px 20px rgba(0, 0, 0, .2)
+
+// sitemap ====================================
+.sitemap
+  background-color: $bg-color-light-grey
+
+// footer ====================================
+.footer a
+    color: white
+    text-decoration: underline

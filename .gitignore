@@ -1,6 +1,5 @@
-
-# ignore docs 
-doc
-download_files
-slicer3-downloads
-w
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
