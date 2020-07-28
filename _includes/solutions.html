@@ -1,27 +1,25 @@
-<div class="columns is-centered">
-    <div class="column has-text-centered">
-        <div class="row has-text-centered">
-            <h2>{{ page.solutions_title }}</h2>
-            <p>{{ page.solutions_description }}</p>
-        </div>
-        <div class="row">
-            <div class="columns is-centered">
-                {% for solution in page.slicer_solutions %}
-                <div class="column is-3">
-                    <div>
-                        <img src="https://www.slicer.org/img/Slicer4Announcement-HiRes.png"  width="100">
-                    </div>
-                    <h4>{{ solution.title }}</h4>
-                    <p>{{ solution.description }}</p>
-                    <a  href="{{ solution.link }}" class="button is-small"
-                      <span class="icon is-small">
-                          <i class="{{ solution.button_icon }}"></i>
-                      </span>
-                      <span>{{ solution.button_text }}</span>
-                    </a>
+<div>
+    <div class="row has-text-centered">
+        <h2>{{ page.solutions_title }}</h2>
+        <p>{{ page.solutions_description }}</p>
+    </div>
+    <div>
+        <div class="container is-flex" style="flex-wrap: wrap;">
+            {% for solution in page.slicer_solutions %}
+            <div style="width:300px; padding-left:50px;">
+                <div>
+                    <img src="{{ solution.image }}"  width="100">
                 </div>
-                {% endfor %}
+                <h4>{{ solution.title }}</h4>
+                <p>{{ solution.description }}</p>
+                <a  href="{{ solution.link }}" class="button is-small">
+                    <span class="icon is-small">
+                       <i class="{{ page.slicer_solutions_button_icon }}"></i>
+                    </span>
+                    <span>{{ page.slicer_solutions_button_text }}</span>
+                </a>
             </div>
+            {% endfor %}
         </div>
     </div>
 </div>
