@@ -51,6 +51,8 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+footer_menu: footer-site-map
+
 sass:
   style: compressed
   source_dir: _sass

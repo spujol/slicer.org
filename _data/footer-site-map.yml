@@ -1,0 +1,36 @@
+- column-list:
+  - name: Download Slicer
+    link: https://download.slicer.org/
+  - name: Slicer Solutions
+    link: /
+  - name: Slicer Community
+    link: /
+  - name: Slicer Licencing
+    link: /
+  - name: Slicer Extensions
+    link: /
+- column-list:
+  - name: Slicer Training
+    link: /
+  - name: Slicer Documentation
+    link: /
+  - name: User Manual
+    link: /
+  - name: Developer Manual
+    link: /
+  - name: Slicer Wiki
+    link: /
+- column-list:
+  - name: Discussion Forum
+    link:
+  - name: Contact
+    link: /
+  - name: Contribute
+    link: /
+- column-list:
+  - name: User Q&A
+    link: /
+  - name: Developer FAQ
+    link: /
+  - name: Feedback
+    link: /
