@@ -4,7 +4,8 @@ hide_navbar: true
 home_page: true # have to find way to remove it. used in hero.html
 
 # Hero ======================================================
-logo_with_shadow: assets/img/slicer-logo-with-shadow.png
+logo_mark: assets/img/3D-Slicer-Mark.svg
+logo_shadow: assets/img/logo-shadow.svg
 title: <b> 3D Slicer </b> biomedical image computing platform
 subtitle: 3D Slicer is a <span class="highlight-text">free</span>, <span class="highlight-text">open source</span> and <span class="highlight-text">multi-platform</span> software package.
 hero_buttons:

@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   3D Slicer biomedical image computing platform.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "slicer.org" # the base hostname & protocol for your site, e.g. http://example.com
-logo_image: assets/img/slicer-logo.png
+logo_image: assets/img/3D-Slicer-Mark.svg
 
 # Build settings
 remote_theme: chrisrhymes/bulma-clean-theme
