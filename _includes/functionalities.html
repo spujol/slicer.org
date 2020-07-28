@@ -6,8 +6,10 @@
       </div>
       <div class="row">
         {% for item in page.functionalities_list %}
-        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+        <div class="column">
+          <i class="fa fa-arrow-right" aria-hidden="true"></i>
           {{ item.item }} <br>
+        </div>
         {% endfor %}
       </div>
     </div>
