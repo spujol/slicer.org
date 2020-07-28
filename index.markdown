@@ -102,6 +102,11 @@ slicer_solutions:
     link: https://download.slicer.org/
     image: assets/img/slicer-solutions/slicer-cip.png
 
+# Commercial Use ======================================================
+commercial_use_title: <b>Slicer</b> Commercial Use
+commercial_use_description: We invite commercial entities to use 3D Slicer. 3D Slicer is a Free Open Source Software distributed under a BSD style license.<br> The license does not impose restrictions on the use of the software. For details, please see the <a href="https://www.slicer.org/wiki/License">3D Slicer Software License Agreement</a>.<br> Learn more about our commercial partners and slicer based products and product prototypes.
+commercial_use_button_text: Learn More
+
 
 # Footer ======================================================
 foot_note: Content of this site is Copyright 2020 BWH and 3D Slicer contributors, unless otherwise noted. <br> Contact <a href="mailto:webmaster@bwh.harvard.edu">webmaster@bwh.harvard.edu</a> for questions about the use of this site's content.
