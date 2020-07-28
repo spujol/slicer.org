@@ -8,9 +8,9 @@
   background-color: white
   border-width: 2px
 
-.section-padding
-  padding-top: 50px
-  padding-bottom: 50px
+.hr
+  border: 1px solid rgba($primary,.1)
+  margin: 10px 0px 20px
 
 // nav ================================
 .navbar:before
@@ -32,10 +32,6 @@
 .hero-button
   width: 240px
   background-color: $logo-color-orange
-
-.hero-hr
-  border: 1px solid rgba($primary,.1)
-  margin-top: 10px 0px 20px
 
 .highlight-text
   color: $logo-color-orange
@@ -63,8 +59,22 @@
       z-index: 1
 
 // solutions ====================================
-.solutions
+// .solutions
 
+// community card background ====================================
+.comminuty-card-bg
+  display: flex
+  position: absolute
+  bottom: 0px
+  left: 0px
+  font-size: 70px
+  line-height: 70px
+  z-index: 1
+  font-weight: light
+  color: linear-gradient(white, $bg-color-light-grey)
+
+.community-card
+  // background: linear-gradient(white, lighten($logo-color-yellow, 35%))
 
 // commercial use ====================================
 .commercial-use

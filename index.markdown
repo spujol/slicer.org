@@ -1,6 +1,6 @@
 ---
 layout: home
-hide_navbar: false
+hide_navbar: true
 home_page: true # have to find way to remove it. used in hero.html
 
 # Hero ======================================================
@@ -107,6 +107,16 @@ commercial_use_title: <b>Slicer</b> Commercial Use
 commercial_use_description: We invite commercial entities to use 3D Slicer. 3D Slicer is a Free Open Source Software distributed under a BSD style license.<br> The license does not impose restrictions on the use of the software. For details, please see the <a href="https://www.slicer.org/wiki/License">3D Slicer Software License Agreement</a>.<br> Learn more about our commercial partners and slicer based products and product prototypes.
 commercial_use_button_text: Learn More
 
+# Callouts - Download slicer ======================================================
+download_callout_title: Slicer 4.10.2
+download_callout_subtitle: Latest Release
+download_callout_description: This version introduces ~30 feature enhancements and bug fixes for better performance and stability. <br> <br> Read the <a href="https://www.slicer.org/wiki/Documentation/4.10/Announcements">Announcements</a>  for more details.
+download_callout_button_text: Download this version
+
+# Callouts - Community ======================================================
+community_callout_title: Slicer Community
+community_callout_description: 3D Slicer is supported by a growing international user and developer community.To acknowledge 3D Slicer as a platform, please see the <a href="https://www.slicer.org/wiki/CitingSlicer">Citing Slicer</a>.
+community_callout_button_text: Learn more about Sclier Community
 
 # Footer ======================================================
 foot_note: Content of this site is Copyright 2020 BWH and 3D Slicer contributors, unless otherwise noted. <br> Contact <a href="mailto:webmaster@bwh.harvard.edu">webmaster@bwh.harvard.edu</a> for questions about the use of this site's content.
