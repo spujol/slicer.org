@@ -10,13 +10,11 @@ style="background: url('{{ page.hero_image | prepend: site.baseurl }}') no-repea
                     <img class="hero-logo" style="margin-top:30px;" src="{{ page.logo_shadow }}">
                 </div>
                 <div class="column">
-                    <h1 class="title is-1">{{ page.title }}</h1>
+                    <h1 class="title">{{ page.title }}</h1>
                     {% if page.hero_buttons %}
                     <div class="buttons is-left">
                       {% for button in page.hero_buttons %}
-                          <a  href="{{ button.link }}" class="button hero-button is-medium"
-                            {% if button.color %}
-                            {% endif %}>
+                          <a  href="{{ button.link }}" class="button hero-button is-medium {{ button.color }}">
                             <span class="icon is-small">
                                 <i class="{{ button.icon }}"></i>
                             </span>

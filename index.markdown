@@ -7,35 +7,35 @@ home_page: true # have to find way to remove it. used in hero.html
 logo_mark: assets/img/3D-Slicer-Mark.svg
 logo_shadow: assets/img/logo-shadow.svg
 title: <b> 3D Slicer </b> biomedical image computing platform
-subtitle: 3D Slicer is a <span class="highlight-text">free</span>, <span class="highlight-text">open source</span> and <span class="highlight-text">multi-platform</span> software package.
+subtitle: 3D Slicer is a <span class="highlight-text"><b>free</b></span>, <span class="highlight-text"><b>open source</b></span> and <span class="highlight-text"><b>multi-platform</b></span> software package.
 hero_buttons:
   - text: Download Slicer
     link: https://download.slicer.org/
-    color: logo-color-blue
     icon: fa fa-download
+    color: logo-blue
 
   - text: User Manual
     link: https://www.slicer.org/wiki/Documentation/4.10
-    color: logo-color-red
     icon: fas fa-book
+    color: logo-red
 
   - text: Developer Resources
     link: https://www.slicer.org/wiki/Documentation/Nightly/Developers
-    color: logo-color-orange
     icon: fab fa-github
+    color: logo-orange
 
   - text: Slicer Training
     link: https://www.slicer.org/wiki/Documentation/4.10/Training
-    color: logo-color-green
     icon: fa fa-graduation-cap
+    color: logo-green
 
   - text: Slicer Forum
     link: https://discourse.slicer.org/
-    color: logo-color-yellow
     icon: fa fa-comments
+    color: logo-yellow
 
 # About ======================================================
-about_title: About 3D Slicer
+about_title: What is <b>3D Slicer</b>
 about_description: 3D Slicer is a community supported open source software platform for medical image informatics, image processing, and three-dimensional visualization.<br> Built over two decades through support from the National Institutes of Health and a worldwide developer community. Slicer brings free, powerful cross-platform processing tools to physicians, researchers, and the general public.
 images:
   - title: Image title 1
@@ -46,14 +46,14 @@ images:
 functionalities_title: <b>Slicer</b> Functionalities
 functionalities_description: Slicer is built over two decades and has many including its numerous modules, extensions, datasets, pull requests, patches, issues reports, suggestions—is made possible by users, developers, contributors and commercial partners around the world.
 functionalities_list:
-  - item: "DICOM standard interoperability: thanks to a built-in DICOM browser allowing local import and indexing. Streamlined segmentation: capabilities for 2D/3D/4D image supporting hundreds of segments per image"
-  - item: "Artificial Intelligence: integration by leveraging AI-based automatic segmentation, tools for ground truth training data generation DeepInfer extension for Deep Learning, Tensorflow compatibility and Nvidia Clara automatic segmentation"
-  - item: "4D data support: Time sequence visualization & analysis"
-  - item: "3D printing friendly: 3D-printable mesh, volume export"
-  - item: "Surgical planning and guidance: real-time data recording, analysis and replay from surgical navigation systems, ultrasound scanners cameras and trackers, OpenIGTLink connection with trackers, scanners"
-  - item: "Python scripting:  Live introspection, interface scripting, all Python 3 packages can be used within Slicer"
-  - item: "Virtual Reality and Augmented Reality: interact with scene in HTC, Oculus, WindowsMR systems; export data to HoloLens"
-  - item: "Cloud-based computing: 3D Slicer in web browser, Docker container, or as Jupyter notebook kernel"
+  - item: "<b>DICOM standard interoperability:</b> thanks to a built-in DICOM browser allowing local import and indexing. Streamlined segmentation: capabilities for 2D/3D/4D image supporting hundreds of segments per image"
+  - item: "<b>Artificial Intelligence:</b> integration by leveraging AI-based automatic segmentation, tools for ground truth training data generation DeepInfer extension for Deep Learning, Tensorflow compatibility and Nvidia Clara automatic segmentation"
+  - item: "<b>4D data support:</b> Time sequence visualization & analysis"
+  - item: "<b>3D printing friendly:</b> 3D-printable mesh, volume export"
+  - item: "<b>Surgical planning and guidance:</b> real-time data recording, analysis and replay from surgical navigation systems, ultrasound scanners cameras and trackers, OpenIGTLink connection with trackers, scanners"
+  - item: "<b>Python scripting:</b>  Live introspection, interface scripting, all Python 3 packages can be used within Slicer"
+  - item: "<b>Virtual Reality and Augmented Reality:</b> interact with scene in HTC, Oculus, WindowsMR systems; export data to HoloLens"
+  - item: "<b>Cloud-based computing:</b> 3D Slicer in web browser, Docker container, or as Jupyter notebook kernel"
 
 # Functionalities ======================================================
 extensions_title: <b>Slicer</b> Extensions
@@ -116,7 +116,7 @@ download_callout_button_text: Download this version
 
 # Callouts - Community ======================================================
 community_callout_title: Slicer Community
-community_callout_description: 3D Slicer is supported by a growing international user and developer community.To acknowledge 3D Slicer as a platform, please see the <a href="https://www.slicer.org/wiki/CitingSlicer">Citing Slicer</a>.
+community_callout_description: 3D Slicer is supported by a growing international user and developer community. <br> To acknowledge 3D Slicer as a platform, please see the <a href="https://www.slicer.org/wiki/CitingSlicer">Citing Slicer</a>.
 community_callout_button_text: Learn more about Sclier Community
 
 # Footer ======================================================
