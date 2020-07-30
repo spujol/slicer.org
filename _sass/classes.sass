@@ -4,24 +4,6 @@
   min-height: calc(100vh - #{$header-height + $footer-height}) // to keep footer at page bottom.
 
 // general classes ================================
-.button
-  &:hover
-    background-color: white
-    border-width: 2px
-  &.logo-blue
-    background-color: $logo-color-blue
-  &.logo-red
-    background-color: $logo-color-red
-  &.logo-orange
-    background-color: $logo-color-orange
-  &.logo-green
-    background-color: $logo-color-green
-  &.logo-yellow
-    background-color: $logo-color-yellow
-
-.hr
-  border: 1px solid rgba($primary,.1)
-  margin: 10px 0px 20px
 
 .section-shadow
   box-shadow: 0 3px 15px rgba(0, 0, 0, .2)
@@ -29,6 +11,46 @@
 .content
   h2
     font-weight: 800
+
+.description
+  margin-bottom: 25px
+
+.button
+  transition: background .15s ease-in-out, color .15s ease-in-out
+  border-width: 2px
+  &:hover
+    background-color: white
+    border-width: 2px
+  &.logo-blue
+    background-color: $logo-color-blue
+    &:hover
+      background-color: white
+      color: $logo-color-blue
+      border-color: $logo-color-blue
+  &.logo-red
+    background-color: $logo-color-red
+    &:hover
+      background-color: white
+      color: $logo-color-red
+      border-color: $logo-color-red
+  &.logo-orange
+    background-color: $logo-color-orange
+    &:hover
+      background-color: white
+      color: $logo-color-orange
+      border-color: $logo-color-orange
+  &.logo-green
+    background-color: $logo-color-green
+    &:hover
+      background-color: white
+      color: $logo-color-green
+      border-color: $logo-color-green
+  &.logo-yellow
+    background-color: $logo-color-yellow
+    &:hover
+      background-color: white
+      color: $logo-color-yellow
+      border-color: $logo-color-yellow
 
 // nav ================================
 .navbar:before
@@ -55,6 +77,9 @@
     top: 0
   h1
     font-size: 3.5rem
+  hr
+    border: 1px solid rgba($primary,.1)
+    margin: 10px 0px 20px
 
 .hero-logo
   max-width: 220px
@@ -69,29 +94,64 @@
 // about ====================================
 .about
   color: $text-color
+  p
+    padding-right: 20%
+    line-height: 2rem
+
+  .carousel
+    background-color: $bg-color-light-green
 
   // functionalities ====================================
 .functionalities
-  background-color: $bg-color-light-grey
+  background-color: #F4F7FC
   color: $text-color
-
-// .functionality-bullet-points
+  .functionality
+    width: 50%
+    padding: 1%
 
 // extensions ====================================
+.extensions-section
+  background-image: url("/assets/img/extensions-section-bg.png")
+  background-size: cover
+  background-repeat: no-repeat
+  mix-blend-mode: multiply
+  z-index: -2
+  margin-bottom: 4%
+
 .extensions
-    &::before
-      background: #000
-      content: ''
-      height: 100%
-      left: 0
-      opacity: .5
-      position: absolute
-      width: 100%
-      z-index: -1
-  background: "assets/img/extensions-section-bg.png"
+  .content
+    padding: 2%
+  .button
+    background-color: rgba(white,.8)
+    border: 2px solid $primary
+    color: $primary
+    border-color: $primary
+    &:hover
+      background-color: rgba($primary,.5)
+      color: white
+      border-color: white
+  &:before
+    background: #000
+    content: ''
+    height: 100%
+    left: 0
+    opacity: .7
+    position: absolute
+    width: 100%
+    z-index: -1
 
 // solutions ====================================
-// .solutions
+.slicer-solution
+  max-width: 440px
+  padding-top: 3%
+  img
+    max-width: 100px
+  hr
+    border: 1px solid rgba($primary,.1)
+    margin: 2px 0px 5px
+  .description
+    margin-bottom: 10px
+
 
 // community card background ====================================
 .comminuty-card-bg-text
@@ -109,13 +169,20 @@
 
 .cards-section
   background: linear-gradient(lighten($logo-color-yellow, 39%), lighten($logo-color-yellow, 37%))
+  // background: linear-gradient(rgba($logo-color-yellow,.03), lighten($logo-color-yellow, 37%))
 
 .callout-card
-  background: linear-gradient(lighten($logo-color-yellow, 39%), lighten($bg-color-light-grey, 37%))
+  background: linear-gradient(white, lighten($bg-color-light-grey, 37%))
+  border-top: 2px solid rgba($logo-color-orange,0.2)
+  hr
+    border: 1px solid rgba($primary,.1)
+    margin: 10px 0px 20px
 
 // commercial use ====================================
 .commercial-use
-  background-color: $bg-color-light-green
+  // background-color: $bg-color-light-green
+  background: linear-gradient($bg-color-light-green, lighten($logo-color-green, 53%))
+  border-top: 3px solid rgba($logo-color-orange,0.2)
   .button
     width: 150px
 

@@ -1,11 +1,27 @@
-<div class="columns  is-vcentered">
-    <div class="column is-half">
-        <h2>{{ page.about_title }}</h2>
-        <p>{{ page.about_description }}</p>
-    </div>
-    <div class="column">
-        <div class="image-crousel">
-            <img src="https://www.slicer.org/img/Slicer4Announcement-HiRes.png">
+<div class="columns  is-vcentered" style="margin-bottom:0px;">
+        <div class="column is-half">
+            <div class="title is-2">{{ page.about_title }}</div>
+            <p>{{ page.about_description }}</p>
         </div>
-    </div>
+        <div class="column is-half has-text-centered">
+            <div id="image_carousel" class="carousel" style="overflow:hidden;" >
+                {% for item in page.carousel_images%}
+                <div>
+                    <img class="section-shadow" src="{{ item.image }}" alt="">
+                    <div class="subtitle is-5" style="margin-bottom:0px;">{{ item.title }}</div>
+                    <div class="description">{{ item.description }}</div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
 </div>
+
+<script src="{{ site.baseurl }}/bulma-carousel/dist/js/bulma-carousel.min.js"></script>
+<script>
+  bulmaCarousel.attach('#image_carousel', {
+    slidesToScroll: 1,
+    slidesToShow: 1,
+    navigation: true,
+    loop: true
+  });
+</script>
