@@ -32,6 +32,34 @@ git clone git@github.com:yourname/slicer.org
 [fork]: https://help.github.com/articles/fork-a-repo/
 [pr]: https://help.github.com/articles/creating-a-pull-request/
 
+### Implementation
+
+This site is implemented using [jekyll static site generator](https://jekyllrb.com/).
+Theme used is [Bulma clean theme](https://github.com/chrisrhymes/bulma-clean-theme)
+
+To add internal site pages, create markdown file and add front matter.
+
+* Use page layout in you markdown header:
+```
+  layout: page
+```
+
+* To add side menu on your page create a .yml file for the menu under _data folder and use it in markdown header like this:
+```
+  menubar: example_menu
+```
+
+* To add table of contents on your page use it in markdown header like this:
+```
+  toc: true
+```
+
+* To add sidebar on your page use it in markdown hear like this:
+```
+  show_sidebar: false
+```
+
+For more details on implementation consult [Bulma documentation](https://bulma.io/documentation/) and [Buma clean theme documentaion](https://github.com/chrisrhymes/bulma-clean-theme#bulma-clean-theme)
 
 # History
 

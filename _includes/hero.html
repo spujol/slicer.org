@@ -1,32 +1,15 @@
-<section class="hero {% if page.home_page %} is-medium {% else %} is-small {% endif %} is-bold"
+<div class="container is-fluid internal-page"
 {% if page.hero_image %}
 style="background: url('{{ page.hero_image | prepend: site.baseurl }}') no-repeat center center; background-size: cover;"
 {% endif %}>
-    <div class="hero-body">
-        <div class="container">
-            <div class="columns is-vcentered is-centered">
-                <div class="column is-one-third has-text-centered">
-                    <img class="hero-logo" src="{{ page.logo_mark }}">
-                    <img class="hero-logo" style="margin-top:30px;" src="{{ page.logo_shadow }}">
-                </div>
-                <div class="column">
-                    <h1 class="title">{{ page.title }}</h1>
-                    {% if page.hero_buttons %}
-                    <div class="buttons is-left">
-                      {% for button in page.hero_buttons %}
-                          <a  href="{{ button.link }}" class="button hero-button is-medium {{ button.color }}">
-                            <span class="icon is-small">
-                                <i class="{{ button.icon }}"></i>
-                            </span>
-                            <span>{{ button.text }}</span>
-                          </a>
-                      {% endfor %}
-                    </div>
-                    {% endif %}
-                    <hr>
-                    <p class="subtitle is-5">{{ page.subtitle }}</p>
+    <section class="hero is-small is-bold">
+        <div class="hero-body"">
+            <div class="container">
+                <div class="column is-vcentered is-centered has-text-centered">
+                    <h1 class="title has-text-white">{{ page.title }}</h1>
+                    <p class="subtitle is-5 has-text-white">{{ page.subtitle }}</p>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+</div>

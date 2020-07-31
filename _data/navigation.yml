@@ -1,5 +1,5 @@
 - name: About
-  link: #About-Section
+  link: /#About-Section
 - name: Resources
   link: /#
   dropdown:
@@ -29,6 +29,6 @@
     - name: Chest Imaging Platform
       link: "https://chestimagingplatform.org/"
 - name: Community
-  link: "community" #"https://discourse.slicer.org/"
+  link: "https://discourse.slicer.org/"
 - name: Contact
   link: "https://www.kitware.com/contact-us/"

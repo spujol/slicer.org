@@ -64,22 +64,23 @@
 
 // Hero section ====================================
 .hero
-  background: linear-gradient(white, $bg-color-light-grey)
   box-shadow: 0 2px 10px rgba(0, 0, 0, .2)
-  // border-bottom: solid 15px lighten($text-color, 40%)
-  &:before
-    background: linear-gradient(to right, $logo-color-yellow 0%,$logo-color-yellow 20%,$logo-color-orange 20%, $logo-color-orange 40%, $logo-color-red 40%, $logo-color-red 65%, $logo-color-green 60%, $logo-color-green 80%, $logo-color-blue 80%, $logo-color-blue 100%)
-    content: ''
-    height: 5px
-    position: absolute
-    left: 0
-    right: 0
-    top: 0
   h1
     font-size: 3.5rem
   hr
     border: 1px solid rgba($primary,.1)
     margin: 10px 0px 20px
+  &.main-page
+    background: linear-gradient(white, $bg-color-light-grey)
+    &:before
+      background: linear-gradient(to right, $logo-color-yellow 0%,$logo-color-yellow 20%,$logo-color-orange 20%, $logo-color-orange 40%, $logo-color-red 40%, $logo-color-red 65%, $logo-color-green 60%, $logo-color-green 80%, $logo-color-blue 80%, $logo-color-blue 100%)
+      content: ''
+      height: 5px
+      position: absolute
+      left: 0
+      right: 0
+      top: 0
+
 
 .hero-logo
   max-width: 220px
@@ -105,6 +106,7 @@
 .functionalities
   background-color: #F4F7FC
   color: $text-color
+  line-height: 200%
   .functionality
     width: 50%
     padding: 1%
@@ -154,25 +156,17 @@
 
 
 // community card background ====================================
-.comminuty-card-bg-text
-  display: flex
-  position: absolute
-  bottom: 0px
-  left: 0px
-  font-size: 7vw
-  line-height: 6vw
-  z-index: 1
-  background: -webkit-linear-gradient(lighten($bg-color-light-grey, 30%), darken($bg-color-light-grey, 40%))
-  -webkit-background-clip: text
-  -webkit-text-fill-color: transparent
-  margin-bottom: 0px
+.comminuty-card-bg
+  background-image: url("/assets/img/slicer-community-card-bg.svg")
+  background-repeat: no-repeat
+  background-position: left bottom
+  background-size: 90%
 
 .cards-section
   background: linear-gradient(lighten($logo-color-yellow, 39%), lighten($logo-color-yellow, 37%))
-  // background: linear-gradient(rgba($logo-color-yellow,.03), lighten($logo-color-yellow, 37%))
 
 .callout-card
-  background: linear-gradient(white, lighten($bg-color-light-grey, 37%))
+  background-color: lighten($bg-color-light-grey, 37%)
   border-top: 2px solid rgba($logo-color-orange,0.2)
   hr
     border: 1px solid rgba($primary,.1)
@@ -180,7 +174,6 @@
 
 // commercial use ====================================
 .commercial-use
-  // background-color: $bg-color-light-green
   background: linear-gradient($bg-color-light-green, lighten($logo-color-green, 53%))
   border-top: 3px solid rgba($logo-color-orange,0.2)
   .button
@@ -197,6 +190,28 @@
     color: lighten($logo-color-blue, 10%)
 
 // footer ====================================
-.footer a
+.footer
+  a
     color: white
     text-decoration: underline
+
+// classes for default internal pages ====================================
+
+.internal-page
+  color: $text-color
+  .container
+    padding: 2%
+  &.container
+    &:before
+      background: #000
+      content: ''
+      height: 100%
+      width: 100%
+      left: 0
+      opacity: .7
+      position: absolute
+  .heading
+    color: $text-color
+    font-weight: 400
+    text-transform: none
+

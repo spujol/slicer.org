@@ -1,0 +1,15 @@
+- label: Example Menu
+  items:
+    - name: Home
+      link: /
+    - name: More-Items
+      link: /#
+      items:
+        - name: Sub-item
+          link:
+        - name: Sub-item
+          link:
+        - name: Sub-item
+          link:
+    - name: More-Item
+      link:

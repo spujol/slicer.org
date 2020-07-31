@@ -1,7 +1,6 @@
 ---
 layout: home
 hide_navbar: true
-home_page: true # have to find way to remove it. used in hero.html
 
 # Hero ======================================================
 logo_mark: assets/img/3D-Slicer-Mark.svg
@@ -65,9 +64,9 @@ functionalities_list:
   - item: "<b>Artificial Intelligence:</b> integration by leveraging AI-based automatic segmentation, tools for ground truth training data generation DeepInfer extension for Deep Learning, Tensorflow compatibility and Nvidia Clara automatic segmentation"
   - item: "<b>4D data support:</b> Time sequence visualization & analysis"
   - item: "<b>3D printing friendly:</b> 3D-printable mesh, volume export"
-  - item: "<b>Surgical planning and guidance:</b> real-time data recording, analysis and replay from surgical navigation systems, ultrasound scanners cameras and trackers, OpenIGTLink connection with trackers, scanners"
-  - item: "<b>Python scripting:</b>  Live introspection, interface scripting, all Python 3 packages can be used within Slicer"
   - item: "<b>Virtual Reality and Augmented Reality:</b> interact with scene in HTC, Oculus, WindowsMR systems; export data to HoloLens"
+  - item: "<b>Python scripting:</b>  Live introspection, interface scripting, all Python 3 packages can be used within Slicer"
+  - item: "<b>Surgical planning and guidance:</b> real-time data recording, analysis and replay from surgical navigation systems, ultrasound scanners cameras and trackers, OpenIGTLink connection with trackers, scanners"
   - item: "<b>Cloud-based computing:</b> 3D Slicer in web browser, Docker container, or as Jupyter notebook kernel"
 
 # Extensions ======================================================
@@ -85,43 +84,44 @@ slicer_solutions_button_text: Visit Website
 slicer_solutions:
   - title: Slicer Salt
     description: The dissemination vehicle of powerful shape analysis methodology based on 3D Slicer.
-    link: https://download.slicer.org/
+    link: http://salt.slicer.org/
     image: assets/img/slicer-solutions/slicer-salt.png
 
   - title: Slicer Astro
     description: An Astronomy extension for 3DSlicer. Its an interactive 3D visual analytics tool for HI (neutral Hydrogen) data.
-    link: https://download.slicer.org/
+    link: https://github.com/Punzo/SlicerAstro/wiki
     image: assets/img/slicer-solutions/slicer-astro.png
 
   - title: SlicerIGT
     description: A software kit for rapid development of IGT (Image-guided therapy) applications.
-    link: https://download.slicer.org/
+    link: http://www.slicerigt.org/wp/
     image: assets/img/slicer-solutions/slicer-igt.png
 
   - title: SlicerRT
     description: A radiation therapy research toolkit for 3D Slicer, containing RT features for import/export, analysis & visualization.
-    link: https://download.slicer.org/
+    link: http://slicerrt.github.io/
     image: assets/img/slicer-solutions/slicer-rt.png
 
   - title: SlicerDMRI
     description: An open-source software to improve and extend diffusion magnetic resonance imaging software in 3D Slicer.
-    link: https://download.slicer.org/
+    link: http://dmri.slicer.org/
     image: assets/img/slicer-solutions/slicer-dmri.png
 
   - title: SlicerCMF
     description: A 3D Slicer extension that provides registration, segmentation and quantification modules for dental images analysis.
-    link: https://download.slicer.org/
+    link: http://cmf.slicer.org/
     image: assets/img/slicer-solutions/slicer-cmf.png
 
   - title: Chest Imaging Platform
     description: Software library and clinical-oriented tool for development and translation of known and novel quantitative phenotypes in lung diseases.
-    link: https://download.slicer.org/
+    link: https://chestimagingplatform.org/
     image: assets/img/slicer-solutions/slicer-cip.png
 
 # Commercial Use ======================================================
 commercial_use_title: <b>3D Slicer</b> Commercial Use
 commercial_use_description: We invite commercial entities to use 3D Slicer. 3D Slicer is a Free Open Source Software distributed under a BSD style license.<br> The license does not impose restrictions on the use of the software. For details, please see the <a href="https://www.slicer.org/wiki/License">3D Slicer Software License Agreement</a>.<br> Learn more about our commercial partners and slicer based products and product prototypes.
 commercial_use_button_text: Learn More
+commercial_use_page_url: /commercial-use/
 
 # Callouts - Download slicer ======================================================
 download_callout_title: <b> 3D Slicer </b> 4.10.2
@@ -132,7 +132,7 @@ download_callout_button_text: Download this version
 # Callouts - Community ======================================================
 community_callout_title: <b> 3D Slicer </b> Community
 community_callout_description: 3D Slicer is supported by a growing international user and developer community. <br> To acknowledge 3D Slicer as a platform, please see the <a href="https://www.slicer.org/wiki/CitingSlicer">Citing Slicer</a>.
-community_callout_button_text: Learn more about 3D Sclier Community
+community_callout_button_text: Learn more about 3D Slicer Community
 
 # Footer ======================================================
 foot_note: Content of this site is Copyright 2020 BWH and 3D Slicer contributors, unless otherwise noted. <br> Contact <a href="mailto:webmaster@bwh.harvard.edu">webmaster@bwh.harvard.edu</a> for questions about the use of this site's content.
