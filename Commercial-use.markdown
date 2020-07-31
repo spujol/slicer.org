@@ -5,7 +5,7 @@ description:
 layout: page
 permalink:
 show_sidebar: false
-menubar: example_menu
+# menubar: example_menu
 toc: true
 toc_title: Table of contents
 
