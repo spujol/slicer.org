@@ -25,16 +25,21 @@ page_path:
 
 * 3D Slicer is a Free Open Source Software distributed under a BSD style license.
 * The license does not impose restrictions on the use of the software.
-* 3D Slicer is NOT FDA approved. It is the users responsibility to ensure compliance with applicable rules and regulations.
-* For details, please see the 3D Slicer Software License Agreement.
+* 3D Slicer is **NOT** FDA approved. It is the users responsibility to ensure compliance with applicable rules and regulations.
+* For details, please see the [3D Slicer Software License Agreement](https://github.com/Slicer/Slicer/blob/master/License.txt).
 
 ## Commercial Partners
 {: .heading}
 
-* Ebatinca SL is an international technology company in Las Palmas, Spain focused on technology for sustainable development.
-* Isomics uses 3D Slicer in a variety of academic and commercial research partnerships in fields such as planning and guidance for neurosurgery, quantitative imaging for clinical trials, clinical image informatics.
-* Kitware Integral to continuing to support the 3D Slicer community, Kitware is also offering consulting services in response to the rapidly growing demand for the development of proprietary applications and commercial products based on 3D Slicer. Kitware has used 3D Slicer to rapidly prototype solutions in nearly every aspect of medical imaging and is also collaborating on the development of commercial pre-clinical and clinical products based on 3D Slicer.
-* Pixel Medical builds on and contributes to 3D Slicer to develop innovative medical software from idea to clinical prototype to finished product, and to support academic research projects. Areas of expertise include radiation therapy, image guided therapy, virtual & augmented reality, hardware & device support, and machine learning & artificial intelligence.
+* [Ebatinca SL][ebatinca] is an international technology company in Las Palmas, Spain focused on technology for sustainable development.
+* [Isomics][isomics] uses 3D Slicer in a variety of academic and commercial research partnerships in fields such as planning and guidance for neurosurgery, quantitative imaging for clinical trials, clinical image informatics.
+* [Kitware][kitware] Integral to continuing to support the 3D Slicer community, Kitware is also offering consulting services in response to the rapidly growing demand for the development of proprietary applications and commercial products based on 3D Slicer. Kitware has used 3D Slicer to rapidly prototype solutions in nearly every aspect of medical imaging and is also collaborating on the development of commercial pre-clinical and clinical products based on 3D Slicer.
+* [Pixel Medical][pixel-medical] builds on and contributes to 3D Slicer to develop innovative medical software from idea to clinical prototype to finished product, and to support academic research projects. Areas of expertise include radiation therapy, image guided therapy, virtual & augmented reality, hardware & device support, and machine learning & artificial intelligence.
+
+[ebatinca]: https://ebatinca.com/
+[isomics]: https://isomics.com/
+[kitware]: https://www.kitware.com/platforms/#3d-slicer
+[pixel-medical]: http://pixelmedical.ca/
 
 ## Slicer Based Products and Product Prototypes
 {: .heading}
