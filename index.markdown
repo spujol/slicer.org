@@ -23,12 +23,12 @@ hero_buttons:
     icon: fab fa-github
     color: logo-red
 
-  - text: Slicer Training
+  - text: Training
     link: https://www.slicer.org/wiki/Documentation/4.10/Training
     icon: fa fa-graduation-cap
     color: logo-orange
 
-  - text: Slicer Forum
+  - text: Discussion Forum
     link: https://discourse.slicer.org/
     icon: fa fa-comments
     color: logo-yellow
