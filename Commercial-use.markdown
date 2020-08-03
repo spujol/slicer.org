@@ -8,8 +8,7 @@ show_sidebar: false
 # menubar: example_menu
 toc: true
 toc_title: Table of contents
-
-hero_image: assets/img/hero-images/commercial-use-page-hero.png
+hero_image: /assets/img/hero-images/commercial-use-page-hero.png
 ---
 
 <div class="internal-page" markdown="1">

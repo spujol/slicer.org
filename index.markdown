@@ -3,8 +3,8 @@ layout: home
 hide_navbar: true
 
 # Hero ======================================================
-logo_mark: assets/img/3D-Slicer-Mark.svg
-logo_shadow: assets/img/logo-shadow.svg
+logo_mark: /assets/img/3D-Slicer-Mark.svg
+logo_shadow: /assets/img/logo-shadow.svg
 title: <b> 3D Slicer </b> biomedical image computing platform
 subtitle: 3D Slicer is a <span class="highlight-text"><b>free</b></span>, <span class="highlight-text"><b>open source</b></span> and <span class="highlight-text"><b>multi-platform</b></span> software package.
 hero_buttons:
@@ -43,7 +43,7 @@ images:
 
 # Carousel ==========================================================
 carousel_images:
-  - image: assets/img/image-carousel/sample-image.png
+  - image: assets/img/image-carousel/sample-image2.png
     title: Lorem ipsum title
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis libero eu mi tincidunt maximus. Pellentesque ut maximus ipsum. <a href="https://www.slicer.org/wiki/Documentation/4.10/Announcements"> learn more > </a>
     button_text: learn more
@@ -51,10 +51,19 @@ carousel_images:
     title: Lorem ipsum title
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis libero eu mi tincidunt maximus.Lorem ipsum dolor sit amet, consectetur adipiscing elit.<a href="https://www.slicer.org/wiki/Documentation/4.10/Announcements"> learn more > </a>
     button_text: learn more
-  - image: assets/img/image-carousel/sample-image.png
+  - image: assets/img/image-carousel/sample-image2.png
     title: Lorem ipsum title
     description: In nec luctus velit. Donec tortor purus, vulputate et fringilla ac, tempus eget purus. In semper fermentum nisl ac accumsan.<a href="https://www.slicer.org/wiki/Documentation/4.10/Announcements"> learn more > </a>
     button_text: learn more
+  - image: assets/img/image-carousel/sample-image.png
+    title: Lorem ipsum title
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis libero eu mi tincidunt maximus. Pellentesque ut maximus ipsum. <a href="https://www.slicer.org/wiki/Documentation/4.10/Announcements"> learn more > </a>
+    button_text: learn more
+  - image: assets/img/image-carousel/sample-image2.png
+    title: Lorem ipsum title
+    description: In nec luctus velit. Donec tortor purus, vulputate et fringilla ac, tempus eget purus. In semper fermentum nisl ac accumsan.<a href="https://www.slicer.org/wiki/Documentation/4.10/Announcements"> learn more > </a>
+    button_text: learn more
+
 
 # Functionalities ======================================================
 functionalities_title: <b>3D Slicer</b> Functionalities

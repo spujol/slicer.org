@@ -1,7 +1,6 @@
 - name: About
   link: /#About-Section
 - name: Resources
-  link: /#
   dropdown:
     - name: Download Page
       link: "https://download.slicer.org/"
@@ -12,7 +11,6 @@
     - name: Developer Resources
       link: "https://www.slicer.org/wiki/Documentation/Nightly/Developers"
 - name: Solutions
-  link: /#
   dropdown:
     - name: Slicer Salt
       link: "http://salt.slicer.org/"

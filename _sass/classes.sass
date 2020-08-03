@@ -53,8 +53,11 @@
       border-color: $logo-color-yellow
 
 // nav ================================
+.navbar-dropdown
+  background-color: #fff !important
+
 .navbar:before
-  background: linear-gradient(to right, $logo-color-yellow 0%,$logo-color-yellow 20%,$logo-color-orange 20%, $logo-color-orange 40%, $logo-color-red 40%, $logo-color-red 65%, $logo-color-green 60%, $logo-color-green 80%, $logo-color-blue 80%, $logo-color-blue 100%)
+  background: linear-gradient(to right, $logo-color-blue 0%,$logo-color-blue 20%,$logo-color-red 20%, $logo-color-red 40%, $logo-color-orange 40%, $logo-color-orange 60%, $logo-color-green 60%, $logo-color-green 80%, $logo-color-yellow 80%, $logo-color-yellow 100%)
   content: ''
   height: 5px
   position: absolute
@@ -73,7 +76,7 @@
   &.main-page
     background: linear-gradient(white, $bg-color-light-grey)
     &:before
-      background: linear-gradient(to right, $logo-color-yellow 0%,$logo-color-yellow 20%,$logo-color-orange 20%, $logo-color-orange 40%, $logo-color-red 40%, $logo-color-red 65%, $logo-color-green 60%, $logo-color-green 80%, $logo-color-blue 80%, $logo-color-blue 100%)
+      background: linear-gradient(to right, $logo-color-blue 0%,$logo-color-blue 20%,$logo-color-red 20%, $logo-color-red 40%, $logo-color-orange 40%, $logo-color-orange 60%, $logo-color-green 60%, $logo-color-green 80%, $logo-color-yellow 80%, $logo-color-yellow 100%)
       content: ''
       height: 5px
       position: absolute
@@ -100,7 +103,9 @@
     line-height: 2rem
 
   .carousel
-    background-color: $bg-color-light-green
+    // background-color: $bg-color-light-green
+    overflow: hidden
+    width: 650px
 
   // functionalities ====================================
 .functionalities
@@ -173,7 +178,7 @@
     margin: 10px 0px 20px
 
 // commercial use ====================================
-.commercial-use
+.commercial-use-section
   background: linear-gradient($bg-color-light-green, lighten($logo-color-green, 53%))
   border-top: 3px solid rgba($logo-color-orange,0.2)
   .button
