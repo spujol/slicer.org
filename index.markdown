@@ -16,17 +16,17 @@ hero_buttons:
   - text: User Manual
     link: https://www.slicer.org/wiki/Documentation/4.10
     icon: fas fa-book
-    color: logo-red
+    color: logo-green
 
   - text: Developer Resources
     link: https://www.slicer.org/wiki/Documentation/Nightly/Developers
     icon: fab fa-github
-    color: logo-orange
+    color: logo-red
 
   - text: Slicer Training
     link: https://www.slicer.org/wiki/Documentation/4.10/Training
     icon: fa fa-graduation-cap
-    color: logo-green
+    color: logo-orange
 
   - text: Slicer Forum
     link: https://discourse.slicer.org/
