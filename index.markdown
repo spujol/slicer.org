@@ -96,15 +96,15 @@ slicer_solutions:
     link: http://salt.slicer.org/
     image: assets/img/slicer-solutions/slicer-salt.png
 
-  - title: Slicer Astro
-    description: An Astronomy extension for 3DSlicer. Its an interactive 3D visual analytics tool for HI (neutral Hydrogen) data.
-    link: https://github.com/Punzo/SlicerAstro/wiki
-    image: assets/img/slicer-solutions/slicer-astro.png
-
   - title: SlicerIGT
     description: A software kit for rapid development of IGT (Image-guided therapy) applications.
     link: http://www.slicerigt.org/wp/
     image: assets/img/slicer-solutions/slicer-igt.png
+
+  - title: Slicer Astro
+    description: An Astronomy extension for 3DSlicer. Its an interactive 3D visual analytics tool for HI (neutral Hydrogen) data.
+    link: https://github.com/Punzo/SlicerAstro/wiki
+    image: assets/img/slicer-solutions/slicer-astro.png
 
   - title: SlicerRT
     description: A radiation therapy research toolkit for 3D Slicer, containing RT features for import/export, analysis & visualization.
