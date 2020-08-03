@@ -1,22 +1,26 @@
-<div class="columns  is-vcentered" style="margin-bottom:0px;">
-        <div class="column is-half">
+<div class="columns  is-vcentered is-multiline" style="margin-bottom:0px;">
+        <div class="column is-half-desktop is-12-tablet is-12-mobile">
             <div class="title is-2">{{ page.about_title }}</div>
             <p>{{ page.about_description }}</p>
         </div>
-        <div class="column is-half has-text-centered">
-            <div id="image_carousel" class="carousel" style="overflow:hidden;" >
+        <div class="column is-half-desktop is-12-tablet is-12-mobile has-text-centered">
+            <div id="image_carousel" class="carousel">
                 {% for item in page.carousel_images%}
                 <div>
-                    <img class="section-shadow" src="{{ item.image }}" alt="">
-                    <div class="subtitle is-5" style="margin-bottom:0px;">{{ item.title }}</div>
-                    <div class="description">{{ item.description }}</div>
+                    <figure class="image is-16by9 is-covered">
+                      <img src="{{ item.image }}" alt="">
+                    </figure>
+                    <div>
+                      <div class="subtitle is-5" style="margin-bottom:0px;">{{ item.title }}</div>
+                      <div class="description">{{ item.description }}</div>
+                    </div>
                 </div>
                 {% endfor %}
             </div>
         </div>
 </div>
-
-<script src="{{ site.baseurl }}/bulma-carousel/dist/js/bulma-carousel.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/js/bulma-carousel.min.js"></script>
+<!-- <script src="{{ site.baseurl }}/bulma-carousel/dist/js/bulma-carousel.min.js"></script> -->
 <script>
   bulmaCarousel.attach('#image_carousel', {
     slidesToScroll: 1,
