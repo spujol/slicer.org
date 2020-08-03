@@ -8,17 +8,17 @@ logo_shadow: /assets/img/logo-shadow.svg
 title: <b> 3D Slicer </b> biomedical image computing platform
 subtitle: 3D Slicer is a <span class="highlight-text"><b>free</b></span>, <span class="highlight-text"><b>open source</b></span> and <span class="highlight-text"><b>multi-platform</b></span> software package.
 hero_buttons:
-  - text: Download Slicer
+  - text: Download
     link: https://download.slicer.org/
     icon: fa fa-download
     color: logo-blue
 
-  - text: User Manual
+  - text: Manual
     link: https://www.slicer.org/wiki/Documentation/4.10
     icon: fas fa-book
     color: logo-green
 
-  - text: Developer Resources
+  - text: Developer
     link: https://www.slicer.org/wiki/Documentation/Nightly/Developers
     icon: fab fa-github
     color: logo-red
@@ -28,7 +28,7 @@ hero_buttons:
     icon: fa fa-graduation-cap
     color: logo-orange
 
-  - text: Discussion Forum
+  - text: Forum
     link: https://discourse.slicer.org/
     icon: fa fa-comments
     color: logo-yellow
