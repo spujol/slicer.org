@@ -9,6 +9,11 @@ show_sidebar: false
 toc: true
 toc_title: Table of contents
 hero_image: /assets/img/hero-images/commercial-use-page-hero.png
+page_path:
+  - page-name: 3D Slicer
+    page-link: /#
+#   - page-name: page-2 name
+#     page-link: /page-2 link
 ---
 
 <div class="internal-page" markdown="1">
