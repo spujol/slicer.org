@@ -13,12 +13,12 @@ hero_buttons:
     icon: fa fa-download
     color: logo-blue
 
-  - text: Manual
+  - text: Documentation
     link: https://www.slicer.org/wiki/Documentation/4.10
     icon: fas fa-book
     color: logo-green
 
-  - text: Developer
+  - text: Developers
     link: https://www.slicer.org/wiki/Documentation/Nightly/Developers
     icon: fab fa-github
     color: logo-red
