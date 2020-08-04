@@ -6,6 +6,7 @@ layout: page
 permalink:
 show_sidebar: false
 # menubar: example_menu
+animated_navbar: false
 toc: true
 toc_title: Table of contents
 hero_image: /assets/img/hero-images/commercial-use-page-hero.png

@@ -1,4 +1,8 @@
+{% if page.animated_navbar %}
+<nav class="navbar is-fixed-top" id="animated-header">
+{% else %}
 <nav class="navbar is-fixed-top">
+{% endif %}
     <div class="container">
         <div class="navbar-brand">
             <img src="{{ site.logo_image }}" width="35">
@@ -36,3 +40,16 @@
         </div>
     </div>
 </nav>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+$(window).scroll(function() {
+       var scroll = $(window).scrollTop();
+       if (scroll > 500) {
+         $("#animated-header").addClass("active");
+       }
+       else {
+         $("#animated-header").removeClass("active");
+       }
+});
+</script>

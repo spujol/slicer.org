@@ -3,8 +3,7 @@
 .site-wrapper
   min-height: calc(100vh - #{$header-height + $footer-height}) // to keep footer at page bottom.
 
-// general classes ================================
-
+// general casses ================================
 .section-shadow
   box-shadow: 0 3px 15px rgba(0, 0, 0, .2)
 
@@ -55,7 +54,7 @@
 // nav ================================
 .navbar
   background-color: rgba(244,247,252,.95) !important
-  box-shadow: 0 2px 10px rgba(0, 0, 0, .1)
+  box-shadow: 0 0 10px rgba(0,0,0,0.4)
 
 .navbar-dropdown
   background-color: #fff !important
@@ -68,6 +67,24 @@
   left: 0
   right: 0
   top: 0
+
+.navbar
+  img
+    padding-top: 5px
+  a
+    padding-top: 10px
+
+#animated-header
+  z-index: 9000
+  padding: 10px 0
+  transition: all 0.5s linear
+  opacity: 0
+  pointer-events: none
+
+#animated-header.active
+  box-shadow: 0 0 10px rgba(0,0,0,0.4)
+  opacity: 1
+  pointer-events: auto
 
 // Hero section ====================================
 .hero

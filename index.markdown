@@ -1,6 +1,7 @@
 ---
 layout: home
-hide_navbar: true
+hide_navbar: false
+animated_navbar: true
 
 # Hero ======================================================
 logo_mark: /assets/img/3D-Slicer-Mark.svg
