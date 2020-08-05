@@ -64,7 +64,7 @@ carousel_images:
 
 # Features ======================================================
 features_title: <b>3D Slicer</b> Features
-features_description: Slicer is built over two decades and has many including its numerous modules, extensions, datasets, pull requests, patches, issues reports, suggestions—is made possible by users, developers, contributors and commercial partners around the world.
+features_description: The development of 3D Slicer—including its numerous modules, extensions, datasets, pull requests, patches, issues reports, suggestions—is made possible by users, developers, contributors and commercial partners around the world.
 features_list:
   - item: "<b>DICOM standard interoperability:</b> thanks to a built-in DICOM browser allowing local import and indexing. Streamlined segmentation: capabilities for 2D/3D/4D image supporting hundreds of segments per image"
   - item: "<b>Artificial Intelligence:</b> integration by leveraging AI-based automatic segmentation, tools for ground truth training data generation DeepInfer extension for Deep Learning, Tensorflow compatibility and Nvidia Clara automatic segmentation"
