@@ -139,7 +139,4 @@ download_callout_button_text: Download this version
 community_callout_title: <b> 3D Slicer </b> Community
 community_callout_description: 3D Slicer is supported by a growing international user and developer community. <br> To acknowledge 3D Slicer as a platform, please see the <a href="https://www.slicer.org/wiki/CitingSlicer">Citing Slicer</a>.
 community_callout_button_text: Learn more about 3D Slicer Community
-
-# Footer ======================================================
-foot_note: Content of this site is Copyright 2020 BWH and 3D Slicer contributors, unless otherwise noted. <br> For questions about the use of this site's content, please see <a href=https://www.slicer.org/wiki/Contact">Contact</a>.
 ---
