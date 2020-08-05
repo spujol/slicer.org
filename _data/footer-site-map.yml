@@ -2,17 +2,22 @@
   column-list:
   - name: Getting Started
     link: https://slicer.readthedocs.io/en/latest/user_guide/getting_started.html
+    icon: fa fa-rocket
   - name: Download
     link: https://download.slicer.org
+    icon: fa fa-download
 
 - column-title: Support
   column-list:
   - name: Training
     link: https://www.slicer.org/wiki/Documentation/Nightly/Training
+    icon: fa fa-graduation-cap
   - name: Documentation
     link: https://slicer.readthedocs.io
+    icon: fa fa-book
   - name: Forum
     link: https://discourse.slicer.org/
+    icon: fa fa-comment
   - name: User Q&A
     link: https://www.slicer.org/wiki/Documentation/4.10/FAQ
   - name: Developer FAQ
@@ -45,6 +50,7 @@
     link: https://slicer.readthedocs.io/en/latest/developer_guide/contributing.html
   - name: GitHub
     link: https://github.com/Slicer/Slicer
+    icon: fab fa-github
   - name: Quality Dashboard
     link: http://slicer.cdash.org/viewProjects.php
   - name: Download Statistics
