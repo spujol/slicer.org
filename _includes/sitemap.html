@@ -6,7 +6,12 @@
                 <h4>{{ items.column-title }}</h4>
                 {% for item in items.column-list %}
                  <div>
-                     <a href="{{ item.link | absolute_url }}" class="sitemap-item">{{ item.name }}</a>
+                     <a href="{{ item.link | absolute_url }}" class="sitemap-item">
+                         {% if item.icon %}
+                         <i class="{{ item.icon }}"></i>
+                         {% endif %}
+                         {{ item.name }}
+                     </a>
                  </div>
                  {% endfor %}
              </div>
