@@ -127,7 +127,7 @@ slicer_solutions:
 commercial_use_title: <b>3D Slicer</b> Commercial Use
 commercial_use_description: We invite commercial entities to use 3D Slicer. 3D Slicer is a Free Open Source Software distributed under a BSD style license.<br> The license does not impose restrictions on the use of the software. For details, please see the <a href="https://www.slicer.org/wiki/License">3D Slicer Software License Agreement</a>.<br> Learn more about our commercial partners and slicer based products and product prototypes.
 commercial_use_button_text: Learn More
-commercial_use_page_url: /commercial-use/
+commercial_use_page_url: /Commercial-use
 
 # Callouts - Download slicer ======================================================
 download_callout_title: <b> 3D Slicer </b> 4.10.2
