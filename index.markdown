@@ -141,5 +141,5 @@ community_callout_description: 3D Slicer is supported by a growing international
 community_callout_button_text: Learn more about 3D Slicer Community
 
 # Footer ======================================================
-foot_note: Content of this site is Copyright 2020 BWH and 3D Slicer contributors, unless otherwise noted. <br> Contact <a href="mailto:webmaster@bwh.harvard.edu">webmaster@bwh.harvard.edu</a> for questions about the use of this site's content.
+foot_note: Content of this site is Copyright 2020 BWH and 3D Slicer contributors, unless otherwise noted. <br> For questions about the use of this site's content, please see <a href=https://www.slicer.org/wiki/Contact">Contact</a>.
 ---
