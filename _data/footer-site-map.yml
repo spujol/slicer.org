@@ -52,7 +52,7 @@
   - name: Download Statistics
     link: https://download.slicer.org/download-stats/
   - name: Extensions
-    link: https://github.com/Slicer/ExtensionsIndex
+    link: https://slicer.readthedocs.io/en/latest/developer_guide/extensions.html
   - name: Developer FAQ
     link: https://www.slicer.org/wiki/Documentation/Nightly/Developers/FAQ
   - name: Wiki
