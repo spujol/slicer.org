@@ -163,7 +163,7 @@
     content: ''
     height: 100%
     left: 0
-    opacity: .7
+    opacity: .75
     position: absolute
     width: 100%
     z-index: -1
@@ -226,8 +226,6 @@
 
 .internal-page
   color: $text-color
-  .container
-    padding: 2%
   &.container
     &:before
       background: #000
@@ -235,10 +233,21 @@
       height: 100%
       width: 100%
       left: 0
-      opacity: .7
+      opacity: .75
       position: absolute
+
+  .container
+    padding: 2%
+
   .heading
     color: $text-color
     font-weight: 400
     text-transform: none
+
+  .commercial-products-logo
+    width: 120px
+    min-width: 80px
+    display: flex
+    align-self: flex-end
+
 
