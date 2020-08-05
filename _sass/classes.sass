@@ -3,7 +3,7 @@
 .site-wrapper
   min-height: calc(100vh - #{$header-height + $footer-height}) // to keep footer at page bottom.
 
-// general casses ================================
+// general classes ================================
 .section-shadow
   box-shadow: 0 3px 15px rgba(0, 0, 0, .2)
 
@@ -50,6 +50,10 @@
       background-color: white
       color: $logo-color-yellow
       border-color: $logo-color-yellow
+
+.hide-table-header
+  thead
+    display: none
 
 // nav ================================
 .navbar
