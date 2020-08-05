@@ -90,12 +90,12 @@ slicer_solutions_button_text: Visit Website
 slicer_solutions:
   - title: Slicer Salt
     description: The dissemination vehicle of powerful shape analysis methodology based on 3D Slicer.
-    link: http://salt.slicer.org/
+    link: https://salt.slicer.org
     image: assets/img/slicer-solutions/slicer-salt.png
 
   - title: SlicerIGT
     description: A software kit for rapid development of IGT (Image-guided therapy) applications.
-    link: http://www.slicerigt.org/wp/
+    link: https://slicerigt.org
     image: assets/img/slicer-solutions/slicer-igt.png
 
   - title: Slicer Astro
@@ -105,22 +105,22 @@ slicer_solutions:
 
   - title: SlicerRT
     description: A radiation therapy research toolkit for 3D Slicer, containing RT features for import/export, analysis & visualization.
-    link: http://slicerrt.github.io/
+    link: https://slicerrt.org
     image: assets/img/slicer-solutions/slicer-rt.png
 
   - title: SlicerDMRI
     description: An open-source software to improve and extend diffusion magnetic resonance imaging software in 3D Slicer.
-    link: http://dmri.slicer.org/
+    link: https://dmri.slicer.org
     image: assets/img/slicer-solutions/slicer-dmri.png
 
   - title: SlicerCMF
     description: A 3D Slicer extension that provides registration, segmentation and quantification modules for dental images analysis.
-    link: http://cmf.slicer.org/
+    link: https://cmf.slicer.org
     image: assets/img/slicer-solutions/slicer-cmf.png
 
   - title: Chest Imaging Platform
     description: Software library and clinical-oriented tool for development and translation of known and novel quantitative phenotypes in lung diseases.
-    link: https://chestimagingplatform.org/
+    link: https://chestimagingplatform.org
     image: assets/img/slicer-solutions/slicer-cip.png
 
 # Commercial Use ======================================================
