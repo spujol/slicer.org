@@ -3,6 +3,7 @@
     <div class="columns is-multiline">
         {% for items in site.data[site.footer_menu] %}
              <div class="column">
+                <h4>{{ items.column-title }}</h4>
                 {% for item in items.column-list %}
                  <div>
                      <a href="{{ item.link | absolute_url }}" class="sitemap-item">{{ item.name }}</a>

@@ -1,36 +1,72 @@
-- column-list:
-  - name: Download Slicer
-    link: https://download.slicer.org/
-  - name: Slicer Solutions
-    link: /
-  - name: Slicer Community
-    link: /
-  - name: Slicer Licencing
-    link: /
-  - name: Slicer Extensions
-    link: /
-- column-list:
-  - name: Slicer Training
-    link: /
-  - name: Slicer Documentation
-    link: /
-  - name: User Manual
-    link: /
-  - name: Developer Manual
-    link: /
-  - name: Slicer Wiki
-    link: /
-- column-list:
-  - name: Discussion Forum
-    link:
-  - name: Contact
-    link: /
-  - name: Contribute
-    link: /
-- column-list:
+- column-title: Application
+  column-list:
+  - name: Getting Started
+    link: https://slicer.readthedocs.io/en/latest/user_guide/getting_started.html
+  - name: Download
+    link: https://download.slicer.org
+
+- column-title: Support
+  column-list:
+  - name: Training
+    link: https://www.slicer.org/wiki/Documentation/Nightly/Training
+  - name: Documentation
+    link: https://slicer.readthedocs.io
+  - name: Forum
+    link: https://discourse.slicer.org/
   - name: User Q&A
-    link: /
+    link: https://www.slicer.org/wiki/Documentation/4.10/FAQ
   - name: Developer FAQ
-    link: /
+    link: https://www.slicer.org/wiki/Documentation/Nightly/Developers/FAQ
+  - name: Wiki
+    link: https://www.slicer.org/wiki/Main_Page
   - name: Feedback
-    link: /
+    link: https://www.slicer.org/wiki/Documentation/Nightly/Report_a_problem
+
+- column-title: Solutions
+  column-list:
+  - name: SlicerSalt
+    link: https://salt.slicer.org
+  - name: SlicerIGT
+    link: https://slicerigt.org
+  - name: SlicerAstro
+    link: https://github.com/Punzo/SlicerAstro/wiki
+  - name: SlicerRT
+    link: https://slicerrt.org
+  - name: SlicerDMRI
+    link: https://dmri.slicer.org
+  - name: SlicerCMF
+    link: https://cmf.slicer.org
+  - name: Chest Imaging Platform
+    link: https://chestimagingplatform.org
+
+- column-title: Developers
+  column-list:
+  - name: Contribute
+    link: https://slicer.readthedocs.io/en/latest/developer_guide/contributing.html
+  - name: GitHub
+    link: https://github.com/Slicer/Slicer
+  - name: Quality Dashboard
+    link: http://slicer.cdash.org/viewProjects.php
+  - name: Download Statistics
+    link: https://download.slicer.org/download-stats/
+  - name: Extensions
+    link: https://github.com/Slicer/ExtensionsIndex
+
+- column-title: About
+  column-list:
+  - name: Contact
+    link: https://www.slicer.org/wiki/Contact
+  - name: Licencing
+    link: https://www.slicer.org/wiki/License
+  - name: Citing
+    link: https://www.slicer.org/wiki/CitingSlicer
+  - name: Commercial Use
+    link: /commercial-use
+  - name: Acknowledgments
+    link: https://www.slicer.org/wiki/Documentation/4.x/Acknowledgments
+  - name: Community
+    link: https://www.slicer.org/wiki/Main_Page/SlicerCommunity
+  - name: Twitter
+    link: https://twitter.com/3DSlicerApp
+  - name: YouTube
+    link: https://www.youtube.com/channel/UC11x1iQ7ydSIFYw4L6wveXg
