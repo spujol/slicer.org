@@ -48,7 +48,7 @@
   column-list:
   - name: Contribute
     link: https://slicer.readthedocs.io/en/latest/developer_guide/contributing.html
-  - name: GitHub
+  - name: Developers
     link: https://github.com/Slicer/Slicer
     icon: fab fa-github
   - name: Quality Dashboard
