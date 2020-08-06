@@ -1,7 +1,7 @@
 <div class="columns  is-vcentered is-centered">
     <div class="column">
       <div class="row has-text-centered">
-        <div class="title is-2">{{ page.commercial_use_title}}</div>
+        <div class="title is-2" id="{{ page.commercial_use_title | strip_html | slugify }}">{{ page.commercial_use_title }}</div>
         <div class="description">{{ page.commercial_use_description }}</div>
         <a  href="{{ page.commercial_use_page_url }}" class="button is-small">
             <span>{{ page.commercial_use_button_text }}</span>
