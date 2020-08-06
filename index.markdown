@@ -90,40 +90,40 @@ solutions_description: 3D Slicer solutions are either collections of extensions 
 slicer_solutions_button_icon: fa fa-link
 slicer_solutions_button_text: Visit Website
 slicer_solutions:
-  - title: Slicer Salt
-    description: The dissemination vehicle of powerful shape analysis methodology based on 3D Slicer.
-    link: https://salt.slicer.org
-    image: assets/img/slicer-solutions/slicer-salt.png
-
   - title: SlicerIGT
     description: A software kit for rapid development of IGT (Image-guided therapy) applications.
     link: https://slicerigt.org
     image: assets/img/slicer-solutions/slicer-igt.png
 
-  - title: Slicer Astro
-    description: An Astronomy extension for 3DSlicer. Its an interactive 3D visual analytics tool for HI (neutral Hydrogen) data.
-    link: https://github.com/Punzo/SlicerAstro/wiki
-    image: assets/img/slicer-solutions/slicer-astro.png
-
-  - title: SlicerRT
-    description: A radiation therapy research toolkit for 3D Slicer, containing RT features for import/export, analysis & visualization.
-    link: https://slicerrt.org
-    image: assets/img/slicer-solutions/slicer-rt.png
+  - title: Chest Imaging Platform
+    description: Software library and clinical-oriented tool for development and translation of known and novel quantitative phenotypes in lung diseases.
+    link: https://chestimagingplatform.org
+    image: assets/img/slicer-solutions/slicer-cip.png
 
   - title: SlicerDMRI
     description: An open-source software to improve and extend diffusion magnetic resonance imaging software in 3D Slicer.
     link: https://dmri.slicer.org
     image: assets/img/slicer-solutions/slicer-dmri.png
 
+  - title: SlicerRT
+    description: A radiation therapy research toolkit for 3D Slicer, containing RT features for import/export, analysis & visualization.
+    link: https://slicerrt.org
+    image: assets/img/slicer-solutions/slicer-rt.png
+
+  - title: Slicer Salt
+    description: The dissemination vehicle of powerful shape analysis methodology based on 3D Slicer.
+    link: https://salt.slicer.org
+    image: assets/img/slicer-solutions/slicer-salt.png
+
+  - title: Slicer Astro
+    description: An Astronomy extension for 3DSlicer. Its an interactive 3D visual analytics tool for HI (neutral Hydrogen) data.
+    link: https://github.com/Punzo/SlicerAstro/wiki
+    image: assets/img/slicer-solutions/slicer-astro.png
+
   - title: SlicerCMF
     description: A 3D Slicer extension that provides registration, segmentation and quantification modules for dental images analysis.
     link: https://cmf.slicer.org
     image: assets/img/slicer-solutions/slicer-cmf.png
-
-  - title: Chest Imaging Platform
-    description: Software library and clinical-oriented tool for development and translation of known and novel quantitative phenotypes in lung diseases.
-    link: https://chestimagingplatform.org
-    image: assets/img/slicer-solutions/slicer-cip.png
 
 # Commercial Use ======================================================
 commercial_use_title: Commercial Use
