@@ -22,7 +22,7 @@ title: 3D Slicer
 description: >- # this means to ignore newlines until "baseurl:"
   3D Slicer biomedical image computing platform.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "slicer.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://slicer.org" # the base hostname & protocol for your site, e.g. http://example.com
 logo_image: /assets/img/3D-Slicer-Mark.svg
 favicon: /assets/img/3D-Slicer-Favicon.png
 
@@ -30,6 +30,7 @@ favicon: /assets/img/3D-Slicer-Favicon.png
 theme: bulma-clean-theme
 plugins:
   - jekyll-feed
+  - jekyll-target-blank
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -44,6 +44,9 @@ GEM
       jekyll (>= 3.3, < 5.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-target-blank (2.0.0)
+      jekyll (>= 3.0, < 5.0)
+      nokogiri (~> 1.10)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (1.17.0)
@@ -52,6 +55,9 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
+    mini_portile2 (2.4.0)
+    nokogiri (1.10.10)
+      mini_portile2 (~> 2.4.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.5)
@@ -73,6 +79,7 @@ DEPENDENCIES
   bulma-clean-theme (= 0.9)
   jekyll (~> 3.8)
   jekyll-feed (~> 0.12)
+  jekyll-target-blank
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
