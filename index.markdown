@@ -81,7 +81,7 @@ features_list:
 extensions_title: Extensions
 extensions_description: The 3D Slicer App Store gives access to over 100 extensions that can be installed and used with the 3D Slicer application.
 extensions_background_image: assets/img/hero-images/commercial-use-page-hero.png
-extensions_button_text: Browse Slicer Extensions
+extensions_button_text: Browse Extensions
 extensions_button_link: https://www.slicer.org/w/index.php?title=Documentation/Nightly/Extensions
 
 # Solutions ======================================================
