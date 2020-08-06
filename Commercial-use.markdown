@@ -21,7 +21,7 @@ page_path:
 
 <hr/>
 
-## Slicer's License makes Commercial Use Available
+## 3D Slicer's License makes Commercial Use Available
 {: .heading}
 
 * 3D Slicer is a Free Open Source Software distributed under a BSD style license.
@@ -42,7 +42,7 @@ page_path:
 [kitware]: https://www.kitware.com/platforms/#3d-slicer
 [pixel-medical]: http://pixelmedical.ca/
 
-## Slicer Based Products and Product Prototypes
+## 3D Slicer Based Products and Product Prototypes
 {: .heading}
 
 Many companies prefer not to disclose what software components they use in their products, therefore here we can only list a few commercial products that are based on 3D Slicer,
