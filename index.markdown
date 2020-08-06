@@ -86,7 +86,7 @@ extensions_button_link: https://www.slicer.org/w/index.php?title=Documentation/N
 
 # Solutions ======================================================
 solutions_title: Solutions
-solutions_description: 3D Slicer solutions are either collections of extensions or special distributions of 3D Slicer that provide customized package and complete processing pipeline from beginning to end, addressing specific research problems.
+solutions_description: Each solution represents an application area of 3D Slicer, which may include collection of extensions, tutorials, forum sub-communities, and even custom software distributions tailored to the needs of a specific community. Custom distributions can provide self-contained, end-to-end implementation of specific workflows with simplified user interface.
 slicer_solutions_button_icon: fa fa-link
 slicer_solutions_button_text: Visit Website
 slicer_solutions:
