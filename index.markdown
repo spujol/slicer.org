@@ -36,8 +36,8 @@ hero_buttons:
 
 # About ======================================================
 about_title: What is <b>3D Slicer</b>
-about_description: <ul><li><b>Software</b> application for visualization and analysis of medical image computing datasets.</li>
-  <li><b>Research</b> software platform to quickly develop and evaluate new methods and distribute them to clinical users.</li><li><b>Product</b> development platform to quickly prototype and release products to users.</li></ul>
+about_description: <ul><li><b>Desktop software</b> to solve advanced image computing challenges with a focus on clinical and biomedical applications.</li>
+  <li><b>Development platform</b> to quickly build and deploy custom solutions for research and commercial products, using free, open-source software.</li><li><b>Community</b> of knowledgeable users and developers working together to improve medical computing.</li></ul>
 
 # Carousel ==========================================================
 carousel_images:
