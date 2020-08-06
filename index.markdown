@@ -64,7 +64,7 @@ carousel_images:
 
 
 # Features ======================================================
-features_title: <b>3D Slicer</b> Features
+features_title: Features
 features_description: The development of 3D Slicer—including its numerous modules, extensions, datasets, pull requests, patches, issues reports, suggestions—is made possible by users, developers, contributors and commercial partners around the world.
 features_list:
   - item: "<b>DICOM standard interoperability:</b> DICOM browser allowing local import and indexing."
@@ -78,14 +78,14 @@ features_list:
   - item: "<b>Cloud-based computing:</b> 3D Slicer in web browser, Docker container, or Jupyter notebook kernel"
 
 # Extensions ======================================================
-extensions_title: <b>3D Slicer</b> Extensions
+extensions_title: Extensions
 extensions_description: The 3D Slicer App Store gives access to over 100 Slicer extensions that can be installed and used with the Slicer application.
 extensions_background_image: assets/img/hero-images/commercial-use-page-hero.png
 extensions_button_text: Browse Slicer Extensions
 extensions_button_link: https://www.slicer.org/w/index.php?title=Documentation/Nightly/Extensions
 
 # Solutions ======================================================
-solutions_title: <b>3D Slicer</b> Solutions
+solutions_title: Solutions
 solutions_description: Slicer solutions are either collections of extensions or special distributions of Slicer that provide customized package and complete processing pipeline from beginning to end, addressing specific research problems.
 slicer_solutions_button_icon: fa fa-link
 slicer_solutions_button_text: Visit Website
@@ -126,7 +126,7 @@ slicer_solutions:
     image: assets/img/slicer-solutions/slicer-cip.png
 
 # Commercial Use ======================================================
-commercial_use_title: <b>3D Slicer</b> Commercial Use
+commercial_use_title: Commercial Use
 commercial_use_description: We invite commercial entities to use 3D Slicer. 3D Slicer is a Free Open Source Software distributed under a BSD style license.<br> The license does not impose restrictions on the use of the software. For details, please see the <a href="https://www.slicer.org/wiki/License">3D Slicer Software License Agreement</a>.<br> Learn more about our commercial partners and slicer based products and product prototypes.
 commercial_use_button_text: Learn More
 commercial_use_page_url: /Commercial-use
@@ -138,7 +138,7 @@ download_callout_description: This version introduces ~30 feature enhancements a
 download_callout_button_text: Download this version
 
 # Callouts - Community ======================================================
-community_callout_title: <b> 3D Slicer </b> Community
+community_callout_title: Community
 community_callout_description: 3D Slicer is supported by a growing international user and developer community. <br> To acknowledge 3D Slicer as a platform, please see the <a href="https://www.slicer.org/wiki/CitingSlicer">Citing Slicer</a>.
 community_callout_button_text: Learn more about 3D Slicer Community
 ---
