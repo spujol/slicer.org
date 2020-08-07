@@ -115,6 +115,11 @@ slicer_solutions:
     link: https://salt.slicer.org
     image: assets/img/slicer-solutions/slicer-salt.png
 
+  - title: SlicerMorph
+    description: SlicerMorph enables biologists to retrieve, visualize, measure, segment and animate 3D biological specimens from digital collections of volumetric and surface scans. It also enables researchers to conduct landmark-based geometric morphometric analyses, all within the 3D Slicer.
+    link: https://slicermorph.github.io
+    image: assets/img/slicer-solutions/slicer-morph.png
+
   - title: SlicerAstro
     description: An Astronomy extension for 3DSlicer. Its an interactive 3D visual analytics tool for HI (neutral Hydrogen) data.
     link: https://github.com/Punzo/SlicerAstro/wiki

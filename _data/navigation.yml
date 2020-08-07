@@ -22,6 +22,8 @@
       link: "http://slicerrt.github.io"
     - name: SlicerSalt
       link: "http://salt.slicer.org"
+    - name: SlicerMorph
+      link: "https://slicermorph.github.io"
     - name: SlicerAstro
       link: "https://github.com/Punzo/SlicerAstro/wiki"
     - name: SlicerCMF

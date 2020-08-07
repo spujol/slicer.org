@@ -35,6 +35,8 @@
     link: https://slicerrt.org
   - name: SlicerSalt
     link: https://salt.slicer.org
+  - name: SlicerMorph
+    link: https://slicermorph.github.io
   - name: SlicerAstro
     link: https://github.com/Punzo/SlicerAstro/wiki
   - name: SlicerCMF
