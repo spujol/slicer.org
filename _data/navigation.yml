@@ -12,20 +12,20 @@
       link: "https://www.slicer.org/wiki/Documentation/Nightly/Developers"
 - name: Solutions
   dropdown:
-    - name: Slicer Salt
-      link: "http://salt.slicer.org/"
-    - name: Slicer Astro
-      link: "https://github.com/Punzo/SlicerAstro/wiki"
     - name: SlicerIGT
-      link: "http://www.slicerigt.org/wp/"
-    - name: SlicerRT
-      link: "http://slicerrt.github.io/"
-    - name: SlicerDMRI
-      link: "http://dmri.slicer.org/"
-    - name: SlicerCMF
-      link: "http://cmf.slicer.org/"
+      link: "https://www.slicerigt.org"
     - name: Chest Imaging Platform
-      link: "https://chestimagingplatform.org/"
+      link: "https://chestimagingplatform.org"
+    - name: SlicerDMRI
+      link: "http://dmri.slicer.org"
+    - name: SlicerRT
+      link: "http://slicerrt.github.io"
+    - name: SlicerSalt
+      link: "http://salt.slicer.org"
+    - name: SlicerAstro
+      link: "https://github.com/Punzo/SlicerAstro/wiki"
+    - name: SlicerCMF
+      link: "https://cmf.slicer.org"
 - name: Community
   link: "https://discourse.slicer.org/"
 - name: Contact

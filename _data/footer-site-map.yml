@@ -25,20 +25,20 @@
 
 - column-title: Solutions
   column-list:
-  - name: SlicerSalt
-    link: https://salt.slicer.org
   - name: SlicerIGT
     link: https://slicerigt.org
-  - name: SlicerAstro
-    link: https://github.com/Punzo/SlicerAstro/wiki
-  - name: SlicerRT
-    link: https://slicerrt.org
-  - name: SlicerDMRI
-    link: https://dmri.slicer.org
-  - name: SlicerCMF
-    link: https://cmf.slicer.org
   - name: Chest Imaging Platform
     link: https://chestimagingplatform.org
+  - name: SlicerDMRI
+    link: https://dmri.slicer.org
+  - name: SlicerRT
+    link: https://slicerrt.org
+  - name: SlicerSalt
+    link: https://salt.slicer.org
+  - name: SlicerAstro
+    link: https://github.com/Punzo/SlicerAstro/wiki
+  - name: SlicerCMF
+    link: https://cmf.slicer.org
 
 - column-title: Developers
   column-list:

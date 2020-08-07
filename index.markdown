@@ -110,12 +110,12 @@ slicer_solutions:
     link: https://slicerrt.org
     image: assets/img/slicer-solutions/slicer-rt.png
 
-  - title: Slicer Salt
+  - title: SlicerSalt
     description: The dissemination vehicle of powerful shape analysis methodology based on 3D Slicer.
     link: https://salt.slicer.org
     image: assets/img/slicer-solutions/slicer-salt.png
 
-  - title: Slicer Astro
+  - title: SlicerAstro
     description: An Astronomy extension for 3DSlicer. Its an interactive 3D visual analytics tool for HI (neutral Hydrogen) data.
     link: https://github.com/Punzo/SlicerAstro/wiki
     image: assets/img/slicer-solutions/slicer-astro.png
