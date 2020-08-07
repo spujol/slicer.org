@@ -24,6 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "slicer.org" # the base hostname & protocol for your site, e.g. http://example.com
 logo_image: /assets/img/3D-Slicer-Mark.svg
+favicon: /assets/img/3D-Slicer-Favicon.png
 
 # Build settings
 remote_theme: chrisrhymes/bulma-clean-theme
