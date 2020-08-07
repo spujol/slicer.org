@@ -27,7 +27,7 @@ logo_image: /assets/img/3D-Slicer-Mark.svg
 favicon: /assets/img/3D-Slicer-Favicon.png
 
 # Build settings
-remote_theme: chrisrhymes/bulma-clean-theme
+theme: bulma-clean-theme
 plugins:
   - jekyll-feed
 
