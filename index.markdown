@@ -104,40 +104,40 @@ slicer_solutions:
     link: https://slicerigt.org
     image: assets/img/slicer-solutions/slicer-igt.png
 
-  - title: Chest Imaging Platform
-    description: Software library and clinical-oriented tool for development and translation of known and novel quantitative phenotypes in lung diseases.
-    link: https://chestimagingplatform.org
-    image: assets/img/slicer-solutions/slicer-cip.png
-
-  - title: SlicerDMRI
-    description: An open-source software to improve and extend diffusion magnetic resonance imaging software in 3D Slicer.
-    link: https://dmri.slicer.org
-    image: assets/img/slicer-solutions/slicer-dmri.png
-
   - title: SlicerRT
     description: A radiation therapy research toolkit for 3D Slicer, containing RT features for import/export, analysis & visualization.
     link: https://slicerrt.org
     image: assets/img/slicer-solutions/slicer-rt.png
-
-  - title: SlicerSalt
-    description: The dissemination vehicle of powerful shape analysis methodology based on 3D Slicer.
-    link: https://salt.slicer.org
-    image: assets/img/slicer-solutions/slicer-salt.png
-
-  - title: SlicerMorph
-    description: SlicerMorph enables biologists to retrieve, visualize, measure, segment and animate 3D biological specimens from digital collections of volumetric and surface scans. It also enables researchers to conduct landmark-based geometric morphometric analyses, all within the 3D Slicer.
-    link: https://slicermorph.github.io
-    image: assets/img/slicer-solutions/slicer-morph.png
 
   - title: SlicerAstro
     description: An Astronomy extension for 3DSlicer. Its an interactive 3D visual analytics tool for HI (neutral Hydrogen) data.
     link: https://github.com/Punzo/SlicerAstro/wiki
     image: assets/img/slicer-solutions/slicer-astro.png
 
+  - title: Chest Imaging Platform
+    description: Software library and clinical-oriented tool for development and translation of known and novel quantitative phenotypes in lung diseases.
+    link: https://chestimagingplatform.org
+    image: assets/img/slicer-solutions/slicer-cip.png
+
+  - title: SlicerSalt
+    description: The dissemination vehicle of powerful shape analysis methodology based on 3D Slicer.
+    link: https://salt.slicer.org
+    image: assets/img/slicer-solutions/slicer-salt.png
+
   - title: SlicerCMF
     description: A 3D Slicer extension that provides registration, segmentation and quantification modules for dental images analysis.
     link: https://cmf.slicer.org
     image: assets/img/slicer-solutions/slicer-cmf.png
+
+  - title: SlicerDMRI
+    description: An open-source software to improve and extend diffusion magnetic resonance imaging software in 3D Slicer.
+    link: https://dmri.slicer.org
+    image: assets/img/slicer-solutions/slicer-dmri.png
+
+  - title: SlicerMorph
+    description: SlicerMorph enables biologists to retrieve, visualize, measure, segment and animate 3D biological specimens from digital collections of volumetric and surface scans. It also enables researchers to conduct landmark-based geometric morphometric analyses, all within the 3D Slicer.
+    link: https://slicermorph.github.io
+    image: assets/img/slicer-solutions/slicer-morph.png
 
 # Commercial Use ======================================================
 commercial_use_title: Commercial Use

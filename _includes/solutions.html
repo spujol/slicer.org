@@ -1,12 +1,12 @@
 <div>
     <div class="row has-text-centered">
-        <div class="title is-2 anchored" id="{{ page.solutions_title | strip_html | slugify }}">{{ page.solutions_title }}</div>
+        <div class="subtitle is-2 anchored" id="{{ page.solutions_title | strip_html | slugify }}">{{ page.solutions_title }}</div>
         <div class="description is-size-5">{{ page.solutions_description }}</div>
     </div>
     <div>
-        <div class="container is-flex" style="flex-wrap: wrap;">
+        <div class="card-columns columns-3-desktop columns-2-tablet columns-1-mobile">
             {% for solution in page.slicer_solutions %}
-            <div class="slicer-solution" >
+            <div class="slicer-solution card">
                 <div class="columns">
                     <div class="column is-one-third has-text-right has-text-left-mobile">
                         <img src="{{ solution.image }}">
