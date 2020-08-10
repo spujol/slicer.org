@@ -1,30 +1,30 @@
-<div class="columns  is-vcentered is-multiline" style="margin-bottom:0px;">
-        <div class="column is-half-desktop is-12-tablet is-12-mobile">
-            <div class="title is-2 anchored" id="{{ page.about_title | strip_html | slugify }}">{{ page.about_title }}</div>
-            <p>{{ page.about_description }}</p>
-        </div>
-        <div class="column is-half-desktop is-12-tablet is-12-mobile has-text-centered">
-            <div id="image_carousel" class="carousel">
-                {% for item in page.carousel_images%}
-                <div>
-                    <figure class="image is-16by9 is-covered">
-                      <img src="{{ item.image }}" alt="">
-                    </figure>
-                    <div>
-                      <div class="subtitle is-5" style="margin-bottom:0px;">{{ item.title }}</div>
-                      <div class="description">{{ item.description }}</div>
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
+<div>
+  <div class="row has-text-centered">
+    <div class="title is-2 anchored" id="{{ page.about_title | strip_html | slugify }}">{{ page.about_title }}</div>
+    <div class="description">{{ page.about_description }}</div>
+  </div>
+  <div class="subtitle is-4 has-text-centered">{{ page.about_subtitle }}</div>
+  <div id="about_image_carousel" class="carousel has-text-centered">
+    {% for item in page.carousel_images%}
+      <div class="carousel-item">
+          <figure class="image is-16by9 is-covered">
+            <img src="{{ item.image }}" alt="">
+          </figure>
+          <div>
+            <div class="subtitle is-5" style="margin-bottom:0px;">{{ item.title }}</div>
+            <div class="description">{{ item.description }}</div>
+          </div>
+      </div>
+      {% endfor %}
+  </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/js/bulma-carousel.min.js"></script>
 <script>
-  bulmaCarousel.attach('#image_carousel', {
+  bulmaCarousel.attach('#about_image_carousel', {
     slidesToScroll: 1,
-    slidesToShow: 1,
+    slidesToShow: 3,
     navigation: true,
+    navigationSwipe: true,
     loop: true
   });
 </script>
