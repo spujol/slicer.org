@@ -1,16 +1,24 @@
-<div class="columns  is-vcentered is-centered">
-    <div class="column">
-      <div class="row has-text-centered">
-        <div class="title is-2 anchored" id="{{ page.features_title | strip_html | slugify }}">{{ page.features_title }}</div>
-        <div class="description  is-size-5">{{ page.features_description }}</div>
-      </div>
-      <div class="container is-flex" style="flex-wrap: wrap;">
+<div class="is-vcentered is-centered">
+  <div class="row has-text-centered">
+    <div class="subtitle is-2 anchored" id="{{ page.features_title | strip_html | slugify }}">{{ page.features_title }}</div>
+    <div class="description  is-size-5">{{ page.features_description }}</div>
+  </div>
+  <div class="container">
+    <div class="row cards-row">
+      <div class="card-columns columns-2-desktop columns-2-tablet columns-1-mobile">
         {% for item in page.features_list %}
-        <div class="feature">
-          <img src="assets/img/features-bullets.svg" width="12px"">
-          {{ item.item }}
+        <div class="card">
+          <div class="card-content">
+            <div>
+              <img src="assets/img/features-bullets.svg" width="12px">
+              {{ item.title }}
+              <br>
+              {{ item.description }}
+            </div>
+          </div>
         </div>
         {% endfor %}
       </div>
     </div>
+  </div>
 </div>

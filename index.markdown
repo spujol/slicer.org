@@ -67,15 +67,24 @@ carousel_images:
 features_title: Features
 features_description: The development of 3D Slicer—including its numerous modules, extensions, datasets, pull requests, patches, issues reports, suggestions—is made possible by users, developers, contributors and commercial partners around the world.
 features_list:
-  - item: "<b>DICOM standard interoperability:</b> DICOM browser allowing local import and indexing."
-  - item: "<b>Streamlined segmentation:</b> Capabilities for 2D/3D/4D image supporting hundreds of segments per image"
-  - item: "<b>Artificial Intelligence:</b> AI-based automatic segmentation, tools for ground truth training data generation, DeepInfer extension for Deep Learning, Tensorflow compatibility and Nvidia Clara automatic segmentation."
-  - item: "<b>4D data support:</b> Time sequence visualization & analysis"
-  - item: "<b>3D printing friendly:</b> 3D-printable mesh, volume export"
-  - item: "<b>Virtual Reality and Augmented Reality:</b> Interact with scene in HTC, Oculus, WindowsMR systems; export data to HoloLens"
-  - item: "<b>Python scripting:</b>  Live introspection, interface scripting, Python 3 packages can be installed"
-  - item: "<b>Surgical planning and guidance:</b> Real-time data recording, analysis and replay from surgical navigation systems, ultrasound scanners cameras and trackers, OpenIGTLink connection with trackers, scanners"
-  - item: "<b>Cloud-based computing:</b> 3D Slicer in web browser, Docker container, or Jupyter notebook kernel"
+  - title: "<b>DICOM standard interoperability</b>"
+    description: "DICOM browser allowing local import and indexing."
+  - title: "<b>Artificial Intelligence</b>"
+    description: "AI-based automatic segmentation, tools for ground truth training data generation, DeepInfer extension for Deep Learning, Tensorflow compatibility and Nvidia Clara automatic segmentation."
+  - title: "<b>3D printing friendly</b>"
+    description: "3D-printable mesh, volume export"
+  - title: "<b>Python scripting</b>"
+    description: "Live introspection, interface scripting, Python 3 packages can be installed"
+  - title: "<b>Cloud-based computing</b>"
+    description: "3D Slicer in web browser, Docker container, or Jupyter notebook kernel"
+  - title: "<b>Streamlined segmentation</b>"
+    description: "Capabilities for 2D/3D/4D image supporting hundreds of segments per image"
+  - title: "<b>4D data support</b>"
+    description: "Time sequence visualization & analysis"
+  - title: "<b>Virtual Reality and Augmented Reality:</b>"
+    description: " Interact with scene in HTC, Oculus, WindowsMR systems; export data to HoloLens"
+  - title: "<b>Surgical planning and guidance</b>"
+    description: "Real-time data recording, analysis and replay from surgical navigation systems, ultrasound scanners cameras and trackers, OpenIGTLink connection with trackers, scanners"
 
 # Extensions ======================================================
 extensions_title: Extensions

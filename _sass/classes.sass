@@ -55,6 +55,58 @@
   thead
     display: none
 
+// responsive columns (used in columns and solutions)================================
+
+.card-columns
+  column-count: 1
+  column-gap: 1.5rem
+  padding: 1.5rem
+
+.card-columns
+  .card
+    display: inline-block
+    width: 100%
+    margin-bottom: 1.5rem
+
+.columns-3
+  column-count: 3
+
+.columns-2
+  column-count: 2
+
+.columns-1
+  column-count: 1
+
+@media (max-width: 768px)
+  .columns-3-mobile
+    column-count: 3
+
+  .columns-2-mobile
+    column-count: 2
+
+  .columns-1-mobile
+    column-count: 1
+
+@media (min-width: 769px)
+  .columns-3-tablet
+    column-count: 3
+
+  .columns-2-tablet
+    column-count: 2
+
+  .columns-1-tablet
+    column-count: 1
+
+@media (min-width: 1024px)
+  .columns-3-desktop
+    column-count: 3
+
+  .columns-2-desktop
+    column-count: 2
+
+  .columns-1-desktop
+    column-count: 1
+
 // nav ================================
 .navbar
   background-color: rgba(244,247,252,.95) !important
@@ -147,9 +199,9 @@
   background-color: #F4F7FC
   color: $text-color
   line-height: 200%
-  .feature
-    width: 50%
-    padding: 1%
+
+  .card
+    margin: 1% 0%
 
 // extensions ====================================
 .extensions-section
