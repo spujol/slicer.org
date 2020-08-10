@@ -51,6 +51,9 @@
       color: $logo-color-yellow
       border-color: $logo-color-yellow
 
+  &.is-small
+    border-radius: 5px !important
+
 .hide-table-header
   thead
     display: none
@@ -276,8 +279,7 @@
 // commercial use ====================================
 .commercial-use-section-style
   background: linear-gradient(rgba($logo-color-green, .01), rgba($logo-color-green, .03))
-  // border-top: 3px solid rgba($logo-color-orange,0.2)
-  border-bottom: 3px solid lighten($logo-color-green, 62%)
+  box-shadow: 0 1px 15px rgba(0, 0, 0, .15)
   .button
     width: 150px
 
