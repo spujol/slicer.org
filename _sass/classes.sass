@@ -264,6 +264,37 @@
   background-repeat: no-repeat
   background-position: left bottom
   background-size: 90%
+  .content
+    margin-bottom: 40px
+
+.comminuty-card-bg-with-image
+  background-image: url("/assets/img/slicer-community-card-bg.jpg")
+  background-repeat: no-repeat
+  background-position: left bottom
+  background-size: cover
+  z-index: -20
+  &:before
+    background: linear-gradient(rgba(white, .85), rgba(white, .6))
+    content: ''
+    height: 100%
+    width: 100%
+    left: 0
+    top: 0
+    position: absolute
+    z-index: -10
+  .content
+    .hr
+      border-color: rgba($text-color,.4)
+    .button
+      margin-top: 40px
+      background-color: rgba(white,0.4)
+      border: 2px solid $primary
+      color: $primary
+      &:hover
+        background-color: rgba($primary,0.6)
+        color: white
+        border-color: white
+
 
 .cards-section
   background: rgba($logo-color-yellow, .01)
@@ -272,8 +303,8 @@
   background-color: lighten($bg-color-light-grey, 37%)
   border-top: 2px solid rgba($logo-color-orange,0.2)
   hr
-    border: 1px solid rgba($primary,.1)
-    margin: 10px 0px 20px
+    border: 1px solid rgba($text-color,.3)
+    margin: 20px 0px 20px
 
 // commercial use ====================================
 .commercial-use-section-style
