@@ -83,7 +83,7 @@
 .columns-1
   column-count: 1
 
-@media (max-width: 768px)
+@media (max-width: 768px)  // for mobile version
   .columns-3-mobile
     column-count: 3
 
@@ -93,7 +93,7 @@
   .columns-1-mobile
     column-count: 1
 
-@media (min-width: 769px)
+@media (min-width: 769px)  // for tablet
   .columns-3-tablet
     column-count: 3
 
@@ -103,7 +103,7 @@
   .columns-1-tablet
     column-count: 1
 
-@media (min-width: 1024px)
+@media (min-width: 1024px) // for desktop
   .columns-3-desktop
     column-count: 3
 
@@ -161,8 +161,13 @@
 // Hero section ====================================
 .hero
   box-shadow: 0 2px 10px rgba(0, 0, 0, .2)
-  h1
-    font-size: 3.5rem
+  @media (max-width: 768px)  // for mobile version
+    h1
+      font-size: 8.5vw
+      text-align: center
+  @media (min-width: 769px) // tablet and desktop
+    h1
+      font-size: 3.5rem
   hr
     border: 1px solid rgba($primary,.1)
     margin: 10px 0px 20px
@@ -180,10 +185,17 @@
 
 .hero-logo
   max-width: 220px
+@media (max-width: 768px)  // for mobile version
+  .hero-logo
+    width: 150px
 
 .hero-button
   width: 240px
   background-color: $logo-color-orange
+@media (max-width: 768px)  // for mobile version
+  .hero-button
+    width: 100%
+    margin-right: 8px
 
 .highlight-text
   color: $logo-color-orange
@@ -200,6 +212,7 @@
     background-color: lighten($text-color,50%)
     border-color: lighten($text-color,40%)
     margin: 5px
+    top: 42%
 
   .carousel
     padding-top: 1%
@@ -262,7 +275,9 @@
     margin: 2px 0px 5px
   .description
     margin-bottom: 10px
-
+  @media (max-width: 768px) // for mobile version
+    &.card
+      text-align: center
 
 // community card background ====================================
 .comminuty-card-bg
@@ -303,7 +318,7 @@
 
 
 .cards-section
-  background: rgba($logo-color-yellow, .01)
+  background: rgba($logo-color-yellow, .05) !important
 
 .callout-card
   background-color: lighten($bg-color-light-grey, 37%)
