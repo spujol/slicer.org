@@ -99,46 +99,7 @@ solutions_title: Solutions
 solutions_description: Each solution represents an application area of 3D Slicer, which may include collection of extensions, tutorials, forum sub-communities, and even custom software distributions tailored to the needs of a specific community. Custom distributions can provide self-contained, end-to-end implementation of specific workflows with simplified user interface.
 slicer_solutions_button_icon: fa fa-link
 slicer_solutions_button_text: Visit Website
-slicer_solutions:
-  - name: SlicerIGT
-    description: A software kit for rapid development of IGT (Image-guided therapy) applications.
-    link: https://slicerigt.org
-    image: assets/img/slicer-solutions/slicer-igt.png
-
-  - name: SlicerRT
-    description: A radiation therapy research toolkit for 3D Slicer, containing RT features for import/export, analysis & visualization.
-    link: https://slicerrt.org
-    image: assets/img/slicer-solutions/slicer-rt.png
-
-  - name: SlicerAstro
-    description: An Astronomy extension for 3DSlicer. Its an interactive 3D visual analytics tool for HI (neutral Hydrogen) data.
-    link: https://github.com/Punzo/SlicerAstro/wiki
-    image: assets/img/slicer-solutions/slicer-astro.png
-
-  - name: Chest Imaging Platform
-    description: Software library and clinical-oriented tool for development and translation of known and novel quantitative phenotypes in lung diseases.
-    link: https://chestimagingplatform.org
-    image: assets/img/slicer-solutions/slicer-cip.png
-
-  - name: SlicerSalt
-    description: The dissemination vehicle of powerful shape analysis methodology based on 3D Slicer.
-    link: https://salt.slicer.org
-    image: assets/img/slicer-solutions/slicer-salt.png
-
-  - name: SlicerCMF
-    description: A 3D Slicer extension that provides registration, segmentation and quantification modules for dental images analysis.
-    link: https://cmf.slicer.org
-    image: assets/img/slicer-solutions/slicer-cmf.png
-
-  - name: SlicerDMRI
-    description: An open-source software to improve and extend diffusion magnetic resonance imaging software in 3D Slicer.
-    link: https://dmri.slicer.org
-    image: assets/img/slicer-solutions/slicer-dmri.png
-
-  - name: SlicerMorph
-    description: SlicerMorph enables biologists to retrieve, visualize, measure, segment and animate 3D biological specimens from digital collections of volumetric and surface scans. It also enables researchers to conduct landmark-based geometric morphometric analyses, all within the 3D Slicer.
-    link: https://slicermorph.github.io
-    image: assets/img/slicer-solutions/slicer-morph.png
+# Solutions listed in _data/solutions.yml
 
 # Commercial Use ======================================================
 commercial_use_title: Commercial Use

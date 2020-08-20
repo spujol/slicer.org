@@ -23,25 +23,6 @@ Support:
   - name: Feedback
     link: https://www.slicer.org/wiki/Documentation/Nightly/Report_a_problem
 
-Solutions:
-  items:
-  - name: SlicerIGT
-    link: https://slicerigt.org
-  - name: Chest Imaging Platform
-    link: https://chestimagingplatform.org
-  - name: SlicerDMRI
-    link: https://dmri.slicer.org
-  - name: SlicerRT
-    link: https://slicerrt.org
-  - name: SlicerSalt
-    link: https://salt.slicer.org
-  - name: SlicerMorph
-    link: https://slicermorph.github.io
-  - name: SlicerAstro
-    link: https://github.com/Punzo/SlicerAstro/wiki
-  - name: SlicerCMF
-    link: https://cmf.slicer.org
-
 Developers:
   items:
   - name: Contribute
