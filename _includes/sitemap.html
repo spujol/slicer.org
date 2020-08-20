@@ -1,21 +1,25 @@
 <div class="container">
     {% if site.footer_menu %}
     <div class="columns is-multiline">
-        {% for items in site.data[site.footer_menu] %}
-             <div class="column">
-                <h4>{{ items.column-title }}</h4>
-                {% for item in items.column-list %}
-                 <div>
-                     <a href="{{ item.link | absolute_url }}" class="sitemap-item">
-                         {% if item.icon %}
-                         <i class="{{ item.icon }}"></i>
-                         {% endif %}
-                         {{ item.name }}
-                     </a>
-                 </div>
-                 {% endfor %}
-             </div>
-        {% endfor %}
+        {% assign title = 'Application' %}
+        {% assign items = site.data[site.footer_menu][title].items %}
+        {% include sitemap-column.html %}
+
+        {% assign title = 'Support' %}
+        {% assign items = site.data[site.footer_menu][title].items %}
+        {% include sitemap-column.html %}
+
+        {% assign title = 'Solutions' %}
+        {% assign items = site.data[site.footer_menu][title].items %}
+        {% include sitemap-column.html %}
+
+        {% assign title = 'Developers' %}
+        {% assign items = site.data[site.footer_menu][title].items %}
+        {% include sitemap-column.html %}
+
+        {% assign title = 'About' %}
+        {% assign items = site.data[site.footer_menu][title].items %}
+        {% include sitemap-column.html %}
     </div>
     {% endif %}
 </div>

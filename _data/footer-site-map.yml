@@ -1,5 +1,5 @@
-- column-title: Application
-  column-list:
+Application:
+  items:
   - name: Getting Started
     link: https://slicer.readthedocs.io/en/latest/user_guide/getting_started.html
     icon: fa fa-rocket
@@ -7,8 +7,8 @@
     link: https://download.slicer.org
     icon: fa fa-download
 
-- column-title: Support
-  column-list:
+Support:
+  items:
   - name: Training
     link: https://www.slicer.org/wiki/Documentation/Nightly/Training
     icon: fa fa-graduation-cap
@@ -23,8 +23,8 @@
   - name: Feedback
     link: https://www.slicer.org/wiki/Documentation/Nightly/Report_a_problem
 
-- column-title: Solutions
-  column-list:
+Solutions:
+  items:
   - name: SlicerIGT
     link: https://slicerigt.org
   - name: Chest Imaging Platform
@@ -42,8 +42,8 @@
   - name: SlicerCMF
     link: https://cmf.slicer.org
 
-- column-title: Developers
-  column-list:
+Developers:
+  items:
   - name: Contribute
     link: https://slicer.readthedocs.io/en/latest/developer_guide/contributing.html
   - name: Developers
@@ -60,8 +60,8 @@
   - name: Wiki
     link: https://www.slicer.org/wiki/Main_Page
 
-- column-title: About
-  column-list:
+About:
+  items:
   - name: Contact
     link: https://www.slicer.org/wiki/Contact
   - name: Licencing
