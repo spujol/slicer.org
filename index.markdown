@@ -107,12 +107,6 @@ commercial_use_description: We invite commercial entities to use 3D Slicer. 3D S
 commercial_use_button_text: Learn More
 commercial_use_page_url: /Commercial-use
 
-# Callouts - Download slicer ======================================================
-download_callout_title: <b> 3D Slicer </b> 4.10.2
-download_callout_subtitle: Latest Release
-download_callout_description: This version introduces ~30 feature enhancements and bug fixes for better performance and stability. <br> <br> Read the <a href="https://www.slicer.org/wiki/Documentation/4.10/Announcements">Announcements</a>  for more details.
-download_callout_button_text: Download this version
-
 # Callouts - Community ======================================================
 community_callout_title: Community
 community_callout_description: 3D Slicer is supported by a growing international user and developer community. <br> To acknowledge 3D Slicer as a platform, please see the <a href="https://www.slicer.org/wiki/CitingSlicer">Citing Slicer</a>.
