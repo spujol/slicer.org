@@ -5,7 +5,28 @@
     </div>
     <div>
         <div class="card-columns columns-3-desktop columns-2-tablet columns-1-mobile">
-            {% for solution in site.data.solutions %}
+
+        {% assign max_col = 3 %}
+        {% assign max_row = 3 %}
+
+        {% assign max_row_range = 3 | minus:1 %}
+        {% assign max_col_range = 3 | minus:1 %}
+
+        {% for row in (0..max_row_range) %}
+            {% for col in (0..max_col_range) %}
+
+                {% assign col_offset = max_col | times:col %}
+                {% assign col_idx = row | plus:col_offset %}
+
+                {% assign row_offset = max_row | times:row %}
+                {% assign row_idx = col | plus:row_offset %}
+
+                {% if row_idx >= site.data.solutions.size %}
+                    {% break %}
+                {% endif %}
+
+                {% assign solution = site.data.solutions[col_idx] %}
+
             <div class="slicer-solution card">
                 <div class="columns">
                     <div class="column is-one-third has-text-right has-text-centered-mobile">
@@ -25,6 +46,7 @@
                 </div>
             </div>
             {% endfor %}
+        {% endfor %}
         </div>
     </div>
 </div>
