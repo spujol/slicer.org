@@ -37,3 +37,8 @@
   description: A 3D Slicer extension that provides registration, segmentation and quantification modules for dental images analysis.
   link: https://cmf.slicer.org
   image: assets/img/slicer-solutions/slicer-cmf.png
+
+- name: SlicerRadiomics
+  description: SlicerRadiomics supports quantitative characterization of imaging phenotype.
+  link: https://radiomics.io
+  image: assets/img/slicer-solutions/slicer-radiomics.jpg
