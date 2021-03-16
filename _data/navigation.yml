@@ -1,5 +1,5 @@
 - name: About
-  link: /#About-Section
+  link: "https://slicer.readthedocs.io/en/latest/user_guide/about.html"
 - name: Resources
   dropdown:
     - name: Download Page
@@ -7,9 +7,9 @@
     - name: Slicer Training
       link: "https://www.slicer.org/wiki/Documentation/4.10/Training"
     - name: User Manual
-      link: "https://www.slicer.org/wiki/Documentation/4.10"
-    - name: Developer Resources
-      link: "https://www.slicer.org/wiki/Documentation/Nightly/Developers"
+      link: "https://slicer.readthedocs.io"
+    - name: Developer Guide
+      link: "https://slicer.readthedocs.io/en/latest/developer_guide/index.html"
 - name: Solutions
   dropdown:
     - name: SlicerIGT
@@ -31,4 +31,4 @@
 - name: Community
   link: "https://discourse.slicer.org/"
 - name: Contact
-  link: "https://www.kitware.com/contact-us/"
+  link: "https://slicer.readthedocs.io/en/latest/user_guide/about.html#contact-us"

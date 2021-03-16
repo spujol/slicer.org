@@ -18,46 +18,39 @@ Support:
   - name: Forum
     link: https://discourse.slicer.org/
     icon: fa fa-comment
-  - name: User Q&A
-    link: https://www.slicer.org/wiki/Documentation/4.10/FAQ
-  - name: Feedback
-    link: https://www.slicer.org/wiki/Documentation/Nightly/Report_a_problem
+  - name: Get Help
+    link: https://slicer.readthedocs.io/en/latest/user_guide/get_help.html
 
 Developers:
   items:
-  - name: Contribute
-    link: https://slicer.readthedocs.io/en/latest/developer_guide/contributing.html
-  - name: Developers
+  - name: Github
     link: https://github.com/Slicer/Slicer
     icon: fab fa-github
+  - name: Developer Guide
+    link: https://slicer.readthedocs.io/en/latest/developer_guide/index.html
   - name: Quality Dashboard
     link: http://slicer.cdash.org/viewProjects.php
   - name: Download Statistics
     link: https://download.slicer.org/download-stats/
   - name: Extensions
     link: https://slicer.readthedocs.io/en/latest/developer_guide/extensions.html
-  - name: Developer FAQ
-    link: https://www.slicer.org/wiki/Documentation/Nightly/Developers/FAQ
-  - name: Wiki
-    link: https://www.slicer.org/wiki/Main_Page
+  - name: Contribute
+    link: https://slicer.readthedocs.io/en/latest/developer_guide/contributing.html
 
 About:
   items:
   - name: Contact
-    link: https://www.slicer.org/wiki/Contact
-  - name: Licencing
-    link: https://www.slicer.org/wiki/License
+    link: https://slicer.readthedocs.io/en/latest/user_guide/about.html#contact-us
+  - name: License
+    link: https://slicer.readthedocs.io/en/latest/user_guide/about.html#license
   - name: Citing
-    link: https://www.slicer.org/wiki/CitingSlicer
+    link: https://slicer.readthedocs.io/en/latest/user_guide/about.html#how-to-cite
   - name: Commercial Use
     link: /Commercial-use
-  - name: Acknowledgments
-    link: https://www.slicer.org/wiki/Documentation/4.x/Acknowledgments
-  - name: Community
+  - name: 3D Slicer Enabled Research
     link: https://www.slicer.org/wiki/Main_Page/SlicerCommunity
+  - name: Acknowledgments
+    link: https://slicer.readthedocs.io/en/latest/user_guide/about.html#acknowledgments
   - name: Twitter
     link: https://twitter.com/3DSlicerApp
     icon: fab fa-twitter
-  - name: YouTube
-    link: https://www.youtube.com/channel/UC11x1iQ7ydSIFYw4L6wveXg
-    icon: fab fa-youtube
