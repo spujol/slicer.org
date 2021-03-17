@@ -1,0 +1,13 @@
+<div class="navbar-item has-dropdown is-hoverable">
+    <a href="{{ item.link | absolute_url }}" class="navbar-link {% if item.link == page.url %}is-active{% endif %}">{{ title }}</a>
+    <div class="navbar-dropdown">
+        {% for item in items %}
+        <a href="{{ item.link | absolute_url }}" class="navbar-item {% if item.link == page.url %}is-active{% endif %}">
+            {% if item.icon %}
+            <i class="{{ item.icon }}"></i>&nbsp;
+            {% endif %}
+            {{ item.name }}
+        </a>
+        {% endfor %}
+    </div>
+</div>
