@@ -1,7 +1,7 @@
 <div>
     <div class="row has-text-centered">
-        <div class="subtitle is-2 anchored" id="{{ page.solutions_title | strip_html | slugify }}">{{ page.solutions_title }}</div>
-        <div class="description is-size-5">{{ page.solutions_description }}</div>
+        <div class="subtitle is-2 anchored" id="{{ page.solutions.title | strip_html | slugify }}">{{ page.solutions.title }}</div>
+        <div class="description is-size-5">{{ page.solutions.description }}</div>
     </div>
     <div>
         <div class="card-columns columns-3-desktop columns-2-tablet columns-1-mobile">
@@ -38,9 +38,9 @@
                         <div class="description">{{ solution.description }}</div>
                         <a  href="{{ solution.link }}" onclick="this.blur();" class="button is-small">
                             <span class="icon is-small">
-                               <i class="{{ page.slicer_solutions_button_icon }}"></i>
+                               <i class="{{ page.solutions.button_icon }}"></i>
                             </span>
-                            <span>{{ page.slicer_solutions_button_text }}</span>
+                            <span>{{ page.solutions.button_text }}</span>
                         </a>
                     </div>
                 </div>

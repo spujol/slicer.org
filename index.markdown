@@ -34,10 +34,13 @@ hero_buttons:
     color: logo-yellow
 
 # About ======================================================
-about_title: What is <b>3D Slicer</b>
-about_subtitle: 3D Slicer in action
-about_description: <b>Desktop software</b> to solve advanced image computing challenges with a focus on clinical and biomedical applications.<br>
-  <b>Development platform</b> to quickly build and deploy custom solutions for research and commercial products, using free, open-source software.<br><b>Community</b> of knowledgeable users and developers working together to improve medical computing.
+about:
+  title: What is <b>3D Slicer</b>
+  subtitle: 3D Slicer in action
+  description: |
+    <b>Desktop software</b> to solve advanced image computing challenges with a focus on clinical and biomedical applications.<br>
+    <b>Development platform</b> to quickly build and deploy custom solutions for research and commercial products, using free, open-source software.<br>
+    <b>Community</b> of knowledgeable users and developers working together to improve medical computing.
 
 # Carousel ==========================================================
 carousel_images:
@@ -87,54 +90,59 @@ carousel_images:
     button_text: learn more
 
 # Features ======================================================
-features_title: Features
-features_description: The development of 3D Slicer—including its numerous modules, extensions, datasets, pull requests, patches, issues reports, suggestions—is made possible by users, developers, contributors and commercial partners around the world.
-features_list:
-  - title: <b>DICOM standard interoperability</b>
-    description: <a href="https://slicer.readthedocs.io/en/latest/user_guide/modules/dicom.html">DICOM import and export, DICOMweb and classic DIMSE networking.</a> Support of wide range of DICOM information objects, such as 2D, 3D, 4D images, segmentation objects, registration objects, structured reports, parametric maps, RT structure sets, RT plans, RT images, RT dose maps.
-  - title: <b>Artificial Intelligence</b>
-    description: <a href="https://discourse.slicer.org/t/ai-assisted-segmentation-extension/9536">NVidia Clara AI-based automatic segmentation</a>, <a href="https://slicer.readthedocs.io/en/latest/user_guide/image_segmentation.html">segmentation tools</a> for ground truth training data generation, <a href="https://www.slicer.org/wiki/Documentation/Nightly/Modules/DeepInfer">DeepInfer extension</a> for Deep Learning, Tensorflow and MONAI compatibility.
-  - title: <b>3D printing friendly</b>
-    description: <a href="https://slicer.readthedocs.io/en/latest/user_guide/modules/segmentations.html#export-segmentation-to-model-surface-mesh-file">3D-printable mesh export</a>, <a href="https://github.com/SlicerFab/SlicerFab">voxel printing support</a>.
-  - title: <b>Python scripting</b>
-    description: Live introspection, interface scripting, any Python 3 packages can be installed. <a href="https://www.slicer.org/wiki/Documentation/Nightly/Training#PerkLab.27s_Slicer_bootcamp_training_materials">Tutorials.</a>
-  - title: <b>Cloud-based computing</b>
-    description: <a href="https://discourse.slicer.org/t/how-to-run-slicer-on-the-cloud-and-access-in-a-web-browser/16401">3D Slicer in web browser</a>, <a href="https://github.com/Slicer/SlicerDocker">Docker container</a>, or <a href="https://discourse.slicer.org/t/run-slicer-in-your-web-browser-as-a-jupyter-notebook-or-as-a-full-application/11569">Jupyter notebook kernel</a>. <b><a href="https://mybinder.org/v2/gh/Slicer/SlicerNotebooks/master?filepath=SlicerWeb.ipynb">Click here to run Slicer in your web browswer now</a></b> (using free Binder service, may take 1-2 minutes to start).
-  - title: <b>Image segmentation</b>
-    description: Capabilities for 2D/3D/4D image supporting hundreds of segments per image using <a href="https://slicer.readthedocs.io/en/latest/user_guide/image_segmentation.html">Segment Editor</a>.
-  - title: <b>Spatial registration</b>
-    description: Many <a href="https://slicer.readthedocs.io/en/latest/user_guide/registration.html">tools for manual and automatic registration</a> for images, image sequences, and models.
-  - title: <b>3D markups</b>
-    description: Define point sets, lines, curves, angles, planes, region of interests and use them for measurements or as inputs in various software modules using <a href="https://slicer.readthedocs.io/en/latest/user_guide/modules/markups.html">Markups module</a>.
-  - title: <b>4D data support</b>
-    description: Time sequence visualization and analysis of any data types (volumes, models, segmentations, markups, etc.).
-  - title: <b>Virtual Reality and Augmented Reality</b>
-    description: <a href="https://www.slicervr.org">Interact with scene in HTC, Oculus, Windows Mixed Reality systems</a>. Export data to HoloLens.
-  - title: <b>Surgical planning and guidance</b>
-    description: <a href="https://www.slicerigt.org">Real-time data recording, analysis and replay from surgical navigation systems, ultrasound scanners cameras and trackers, OpenIGTLink connection with trackers, scanners</a>.
+features:
+  title: Features
+  description: The development of 3D Slicer—including its numerous modules, extensions, datasets, pull requests, patches, issues reports, suggestions—is made possible by users, developers, contributors and commercial partners around the world.
+  list:
+    - title: <b>DICOM standard interoperability</b>
+      description: <a href="https://slicer.readthedocs.io/en/latest/user_guide/modules/dicom.html">DICOM import and export, DICOMweb and classic DIMSE networking.</a> Support of wide range of DICOM information objects, such as 2D, 3D, 4D images, segmentation objects, registration objects, structured reports, parametric maps, RT structure sets, RT plans, RT images, RT dose maps.
+    - title: <b>Artificial Intelligence</b>
+      description: <a href="https://discourse.slicer.org/t/ai-assisted-segmentation-extension/9536">NVidia Clara AI-based automatic segmentation</a>, <a href="https://slicer.readthedocs.io/en/latest/user_guide/image_segmentation.html">segmentation tools</a> for ground truth training data generation, <a href="https://www.slicer.org/wiki/Documentation/Nightly/Modules/DeepInfer">DeepInfer extension</a> for Deep Learning, Tensorflow and MONAI compatibility.
+    - title: <b>3D printing friendly</b>
+      description: <a href="https://slicer.readthedocs.io/en/latest/user_guide/modules/segmentations.html#export-segmentation-to-model-surface-mesh-file">3D-printable mesh export</a>, <a href="https://github.com/SlicerFab/SlicerFab">voxel printing support</a>.
+    - title: <b>Python scripting</b>
+      description: Live introspection, interface scripting, any Python 3 packages can be installed. <a href="https://www.slicer.org/wiki/Documentation/Nightly/Training#PerkLab.27s_Slicer_bootcamp_training_materials">Tutorials.</a>
+    - title: <b>Cloud-based computing</b>
+      description: <a href="https://discourse.slicer.org/t/how-to-run-slicer-on-the-cloud-and-access-in-a-web-browser/16401">3D Slicer in web browser</a>, <a href="https://github.com/Slicer/SlicerDocker">Docker container</a>, or <a href="https://discourse.slicer.org/t/run-slicer-in-your-web-browser-as-a-jupyter-notebook-or-as-a-full-application/11569">Jupyter notebook kernel</a>. <b><a href="https://mybinder.org/v2/gh/Slicer/SlicerNotebooks/master?filepath=SlicerWeb.ipynb">Click here to run Slicer in your web browswer now</a></b> (using free Binder service, may take 1-2 minutes to start).
+    - title: <b>Image segmentation</b>
+      description: Capabilities for 2D/3D/4D image supporting hundreds of segments per image using <a href="https://slicer.readthedocs.io/en/latest/user_guide/image_segmentation.html">Segment Editor</a>.
+    - title: <b>Spatial registration</b>
+      description: Many <a href="https://slicer.readthedocs.io/en/latest/user_guide/registration.html">tools for manual and automatic registration</a> for images, image sequences, and models.
+    - title: <b>3D markups</b>
+      description: Define point sets, lines, curves, angles, planes, region of interests and use them for measurements or as inputs in various software modules using <a href="https://slicer.readthedocs.io/en/latest/user_guide/modules/markups.html">Markups module</a>.
+    - title: <b>4D data support</b>
+      description: Time sequence visualization and analysis of any data types (volumes, models, segmentations, markups, etc.).
+    - title: <b>Virtual Reality and Augmented Reality</b>
+      description: <a href="https://www.slicervr.org">Interact with scene in HTC, Oculus, Windows Mixed Reality systems</a>. Export data to HoloLens.
+    - title: <b>Surgical planning and guidance</b>
+      description: <a href="https://www.slicerigt.org">Real-time data recording, analysis and replay from surgical navigation systems, ultrasound scanners cameras and trackers, OpenIGTLink connection with trackers, scanners</a>.
 
 # Extensions ======================================================
-extensions_title: Extensions
-extensions_description: The 3D Slicer App Store gives access to over 100 extensions that can be installed and used with the 3D Slicer application.
-extensions_button_text: Browse Extensions
-extensions_button_link: https://www.slicer.org/w/index.php?title=Documentation/Nightly/Extensions
+extensions:
+  title: Extensions
+  description: The 3D Slicer App Store gives access to over 100 extensions that can be installed and used with the 3D Slicer application.
+  button_text: Browse Extensions
+  button_link: https://www.slicer.org/w/index.php?title=Documentation/Nightly/Extensions
 
 # Solutions ======================================================
-solutions_title: Solutions
-solutions_description: Each solution represents an application area of 3D Slicer, which may include collection of extensions, tutorials, forum sub-communities, and even custom software distributions tailored to the needs of a specific community. Custom distributions can provide self-contained, end-to-end implementation of specific workflows with simplified user interface.
-slicer_solutions_button_icon: fa fa-link
-slicer_solutions_button_text: Visit Website
+solutions:
+  title: Solutions
+  description: Each solution represents an application area of 3D Slicer, which may include collection of extensions, tutorials, forum sub-communities, and even custom software distributions tailored to the needs of a specific community. Custom distributions can provide self-contained, end-to-end implementation of specific workflows with simplified user interface.
+  button_icon: fa fa-link
+  button_text: Visit Website
 # Solutions listed in _data/solutions.yml
 
 # Commercial Use ======================================================
-commercial_use_title: Commercial Use
-commercial_use_description: We invite commercial entities to use 3D Slicer. 3D Slicer is a Free Open Source Software distributed under a BSD style license.<br> The license does not impose restrictions on the use of the software. For details, please see the <a href="https://www.slicer.org/wiki/License">3D Slicer Software License Agreement</a>.<br> Learn more about our commercial partners and 3D Slicer based products and product prototypes.
-commercial_use_button_text: Learn More
-commercial_use_page_url: /Commercial-use
+commercial_use:
+  title: Commercial Use
+  description: We invite commercial entities to use 3D Slicer. 3D Slicer is a Free Open Source Software distributed under a BSD style license.<br> The license does not impose restrictions on the use of the software. For details, please see the <a href="https://www.slicer.org/wiki/License">3D Slicer Software License Agreement</a>.<br> Learn more about our commercial partners and 3D Slicer based products and product prototypes.
+  button_text: Learn More
+  page_url: /Commercial-use
 
 # Community ======================================================
-community_title: Community
-community_description: 3D Slicer is supported by a growing international user and developer community. <br> Visit the <a href="https://discourse.slicer.org">3D Slicer Forum</a> to connect with community members.<br> To acknowledge 3D Slicer as a platform, please see <a href="https://www.slicer.org/wiki/CitingSlicer">Citing Slicer</a>.
-community_button_text: Learn more about 3D Slicer Community
-community_button_link: https://www.slicer.org/wiki/Main_Page/SlicerCommunity
+community:
+  title: Community
+  description: 3D Slicer is supported by a growing international user and developer community. <br> Visit the <a href="https://discourse.slicer.org">3D Slicer Forum</a> to connect with community members.<br> To acknowledge 3D Slicer as a platform, please see <a href="https://www.slicer.org/wiki/CitingSlicer">Citing Slicer</a>.
+  button_text: Learn more about 3D Slicer Community
+  button_link: https://www.slicer.org/wiki/Main_Page/SlicerCommunity
 ---

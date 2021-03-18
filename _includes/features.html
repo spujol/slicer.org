@@ -1,12 +1,12 @@
 <div class="is-vcentered is-centered">
   <div class="row has-text-centered">
-    <div class="subtitle is-2 anchored" id="{{ page.features_title | strip_html | slugify }}">{{ page.features_title }}</div>
-    <div class="description  is-size-5">{{ page.features_description }}</div>
+    <div class="subtitle is-2 anchored" id="{{ page.features.title | strip_html | slugify }}">{{ page.features.title }}</div>
+    <div class="description  is-size-5">{{ page.features.description }}</div>
   </div>
   <div class="container">
     <div class="row cards-row">
       <div class="card-columns columns-2-desktop columns-2-tablet columns-1-mobile">
-        {% for item in page.features_list %}
+        {% for item in page.features.list %}
         <div class="card">
           <div class="card-content">
             <div>
