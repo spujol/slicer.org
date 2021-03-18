@@ -134,7 +134,8 @@ commercial_use_button_text: Learn More
 commercial_use_page_url: /Commercial-use
 
 # Community ======================================================
-community_callout_title: Community
-community_callout_description: 3D Slicer is supported by a growing international user and developer community. <br> Visit the <a href="https://discourse.slicer.org">3D Slicer Forum</a> to connect with community members.<br> To acknowledge 3D Slicer as a platform, please see <a href="https://www.slicer.org/wiki/CitingSlicer">Citing Slicer</a>.
-community_callout_button_text: Learn more about 3D Slicer Community
+community_title: Community
+community_description: 3D Slicer is supported by a growing international user and developer community. <br> Visit the <a href="https://discourse.slicer.org">3D Slicer Forum</a> to connect with community members.<br> To acknowledge 3D Slicer as a platform, please see <a href="https://www.slicer.org/wiki/CitingSlicer">Citing Slicer</a>.
+community_button_text: Learn more about 3D Slicer Community
+community_button_link: https://www.slicer.org/wiki/Main_Page/SlicerCommunity
 ---
