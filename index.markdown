@@ -33,6 +33,11 @@ hero_buttons:
     icon: fa fa-comments
     color: logo-yellow
 
+  - text: Twitter
+    link: https://twitter.com/3DSlicerApp
+    icon: fab fa-twitter
+    color: logo-brown
+
 # About ======================================================
 about:
   title: What is <b>3D Slicer</b>
