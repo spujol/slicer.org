@@ -54,3 +54,6 @@ About:
   - name: Twitter
     link: https://twitter.com/3DSlicerApp
     icon: fab fa-twitter
+  - name: YouTube
+    link: https://www.youtube.com/c/3DSlicerChannel
+    icon: fab fa-youtube
