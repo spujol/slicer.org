@@ -1,9 +1,7 @@
-<!-- <section style="background: url('{{ page.hero_image | prepend: site.baseurl }}') no-repeat center center; background-size: cover;">
-</section> -->
 <div class="columns is-centered">
     <div class="column has-text-centered">
-        <div class="subtitle is-2 has-text-white anchored" id="{{ page.extensions_title | strip_html | slugify }}">{{ page.extensions_title }}</div>
-        <div class="description has-text-white is-size-5">{{ page.extensions_description }}</div>
+        <div class="subtitle is-2 anchored" id="{{ page.extensions_title | strip_html | slugify }}">{{ page.extensions_title }}</div>
+        <div class="description is-size-5">{{ page.extensions_description }}</div>
         <a  href="{{ page.extensions_button_link }}" onclick="this.blur();" class="button is-medium">
             <span>{{ page.extensions_button_text }}</span>
             <span class="icon is-small">
