@@ -1,11 +1,12 @@
 # slicer.org
 
-This ``slicer-org`` branch of this repository store the static content served at the root of https://slicer.org.
+The ``slicer-org`` branch of this repository stores the source files used to generate the site deployed at https://slicer.org.
+
+The site is implemented using [jekyll static site generator](https://jekyllrb.com/) and uses the [Bulma clean theme](https://github.com/chrisrhymes/bulma-clean-theme).
 
 # Synchronization
 
-Every 5 minutes, the branch [slicer-org](https://github.com/Slicer/slicer.org/tree/slicer-org) is automatically pulled into the live site. There is no need to
-connect to the server in order to make changes.
+_Coming soon_
 
 # Pull Request preview
 
@@ -32,12 +33,83 @@ git clone git@github.com:yourname/slicer.org
 [fork]: https://help.github.com/articles/fork-a-repo/
 [pr]: https://help.github.com/articles/creating-a-pull-request/
 
-### Implementation
+# Source Files
 
-This site is implemented using [jekyll static site generator](https://jekyllrb.com/).
-Theme used is [Bulma clean theme](https://github.com/chrisrhymes/bulma-clean-theme)
+This section described files and directories used by the static site generator.
 
-To add internal site pages, create markdown file and add front matter.
+## `_config.yml`
+
+The `_config.yml` file contains settings that Jekyll uses as it processes the site.
+
+See [_config.yml](_config.yml) and https://jekyllrb.com/tutorials/convert-site-to-jekyll/#what-is-a-jekyll-website
+
+## `index.markdown`
+
+This document describes the properties used to generate the website main page.
+
+It includes the following sections:
+
+| Name           | Properties |
+|----------------|------------|
+| Hero           | Title, subtitle and list of buttons used in top-level section |
+| About          | Title, subtitle and description for the _What is 3D Slicer_ section |
+| Carousel       | List of images and associated descriptions |
+| Features       | List of features including title, subtitle and description of the section |
+| Solutions      | Title, description and properties common to all solution. See [_data/solutions.yml](_data/solutions.yml) for the list. |
+| Commercial Use | Title, subtitle and description of the section |
+| Communities    | Title, subtitle and description of the section |
+
+See [index.markdown](index.markdown)
+
+## `_data` directory
+
+Learn more at https://jekyllrb.com/docs/datafiles/
+
+## `_data/footer-site-map.yml`
+
+Describes the links used to generate the top-level navbar and footer entries.
+
+See [_data/footer-site-map.yml](_data/footer-site-map.yml)
+
+## `_data/solutions.yml`
+
+List of solutions used to generate main section, navbar and footer entries
+
+See [_data/solutions.yml](_data/solutions.yml)
+
+## `_layout/*.html`
+
+Layouts are templates that can be used by any page in your site and wrap around page content.
+
+See [_layout](./_layout)
+
+Learn more at https://jekyllrb.com/docs/step-by-step/04-layouts/
+
+## `_includes/*.html`
+
+The `include` tag allows you to include content from another file stored in an `_includes` folder. Includes are useful for having a single source for source code that repeats around the site or for improving the readability.
+
+See [_includes](./_includes)
+
+Learn more at https://jekyllrb.com/docs/step-by-step/05-includes/
+
+## Internal pages
+
+* Commercial Use
+
+See [Commercial-use.markdown](./Commercial-use.markdown)
+
+# Useful links
+
+* [Bulma documentation](https://bulma.io/documentation/)
+* [Buma clean theme documentation](https://github.com/chrisrhymes/bulma-clean-theme#bulma-clean-theme)
+* [Jekyll static site generator](https://jekyllrb.com/docs/)
+
+# Adding an internal page
+
+To add an internal site pages, create a markdown file with a front matter.
+
+For example, see [Commercial-use.markdown](./Commercial-use.markdown)
 
 * Use page layout in you markdown header:
 ```
@@ -58,8 +130,6 @@ To add internal site pages, create markdown file and add front matter.
 ```
   show_sidebar: false
 ```
-
-For more details on implementation consult [Bulma documentation](https://bulma.io/documentation/) and [Buma clean theme documentaion](https://github.com/chrisrhymes/bulma-clean-theme#bulma-clean-theme)
 
 # History
 
