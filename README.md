@@ -181,7 +181,9 @@ Step-by-step:
   ---
   ```
 
-5. Remove extraneous files
+5. If if applies, remove the extra `?v=...` from [assets/favicons/site.webmanifest](./assets/favicons/site.webmanifest)
+
+6. Remove extraneous files
 
   ```bash
   rm faviconData.json
@@ -189,7 +191,7 @@ Step-by-step:
   rm assets/favicons/apple-touch-icon-*.png
   ```
 
-6. Commit changes
+7. Commit changes
 
   ```bash
   git add favicon.json assets/favicons/* _includes/head.html
