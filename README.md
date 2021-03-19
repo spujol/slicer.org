@@ -15,6 +15,7 @@ The site is implemented using [jekyll static site generator](https://jekyllrb.co
       * [Source Files](#source-files)
       * [Useful links](#useful-links)
       * [Adding an internal page](#adding-an-internal-page)
+      * [Regenerating favicons](#regenerating-favicons)
    * [History](#history)
    * [License](#license)
 
