@@ -153,6 +153,40 @@ For example, see [Commercial-use.markdown](./Commercial-use.markdown)
   show_sidebar: false
 ```
 
+## Regenerating favicons
+
+The configuration file [favicon.json](./favicon.json) was originally generated
+using https://realfavicongenerator.net/ and uploading [3D-Slicer-Mark.svg](./assets/img/3D-Slicer-Mark.svg).
+
+Step-by-step:
+
+1. Review and update `favicon.json`
+
+2. Execute the following commands:
+
+  ```bash
+  npx cli-real-favicon generate favicon.json faviconData.json assets/favicons/
+  ```
+
+  _Note: `npx` command-line is available after installing [node](https://nodejs.org/en/download/)_
+
+3. Update [_includes/head.html](./_includes/head.html) based on content of the generated file `assets/favicons/README.md`
+
+4. Remove extraneous files
+
+  ```bash
+  rm faviconData.json
+  rm assets/favicons/README.md
+  rm assets/favicons/apple-touch-icon-*.png
+  ```
+
+5. Commit changes
+
+  ```bash
+  git add favicon.json assets/favicons/* _includes/head.html
+  git commit -m "ENH: Update favicons"
+  ```
+
 # History
 
 Transition to GitHub for managing and serving the Slicer top level page was discussed on Slicer Discourse forum. See https://discourse.slicer.org/t/its-all-about-transitions-lets-talk-about-slicers-landing-page

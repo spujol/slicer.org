@@ -7,9 +7,20 @@
       <title>{{ page.title }} - {{ site.title }}</title>
     {% endif %}
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/app.css">
-    <link rel="shortcut icon" type="image/png"
-          {% if site.favicon %} href="{{ site.favicon }}" {% else %} href="{{ site.baseurl }}favicon.png" {% endif %}
-    />
+
+    <!-- [favicon] -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/favicons/apple-touch-icon.png?v=Gv63MLlwnz">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/favicons/favicon-32x32.png?v=Gv63MLlwnz">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/favicons/favicon-16x16.png?v=Gv63MLlwnz">
+    <link rel="manifest" href="{{ site.baseurl }}/assets/favicons/site.webmanifest?v=Gv63MLlwnz">
+    <link rel="mask-icon" href="{{ site.baseurl }}/assets/favicons/safari-pinned-tab.svg?v=Gv63MLlwnz" color="#1f65b0">
+    <link rel="shortcut icon" href="{{ site.baseurl }}/assets/favicons/favicon.ico?v=Gv63MLlwnz">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="msapplication-TileImage" content="{{ site.baseurl }}/assets/favicons/mstile-144x144.png?v=Gv63MLlwnz">
+    <meta name="msapplication-config" content="{{ site.baseurl }}/assets/favicons/browserconfig.xml?v=Gv63MLlwnz">
+    <meta name="theme-color" content="#1f65b0">
+    <!-- [/favicon] -->
+
     <link href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.24/dist/css/bulma-carousel.min.css" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     {% seo %}
