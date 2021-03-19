@@ -51,7 +51,7 @@ about:
 carousel_images:
   - image: assets/img/image-carousel/SegmentEditor.png
     title: Image segmentation
-    description: Create surgical plans, create high-quality atlases, or training data sets for deep learning using Segment Editor module. <a href="https://slicer.readthedocs.io/en/latest/user_guide/image_segmentation.html"> learn more > </a>
+    description: Create surgical plans, create high-quality atlases, or training data sets for deep learning using the Segment Editor module. <a href="https://slicer.readthedocs.io/en/latest/user_guide/image_segmentation.html"> learn more > </a>
     button_text: learn more
   - image: assets/img/image-carousel/LungCTAnalyzer.jpg
     title: Lung CT analysis for COVID-19
@@ -100,7 +100,7 @@ features:
   description: The development of 3D Slicer—including its numerous modules, extensions, datasets, pull requests, patches, issues reports, suggestions—is made possible by users, developers, contributors and commercial partners around the world.
   list:
     - title: <b>DICOM standard interoperability</b>
-      description: <a href="https://slicer.readthedocs.io/en/latest/user_guide/modules/dicom.html">DICOM import and export, DICOMweb and classic DIMSE networking.</a> Support of wide range of DICOM information objects, such as 2D, 3D, 4D images, segmentation objects, registration objects, structured reports, parametric maps, RT structure sets, RT plans, RT images, RT dose maps.
+      description: <a href="https://slicer.readthedocs.io/en/latest/user_guide/modules/dicom.html">DICOM import and export, DICOMweb and classic DIMSE networking.</a> Support of a wide range of DICOM information objects, such as 2D, 3D, 4D images, segmentation objects, registration objects, structured reports, parametric maps, RT structure sets, RT plans, RT images, RT dose maps.
     - title: <b>Artificial Intelligence</b>
       description: <a href="https://discourse.slicer.org/t/ai-assisted-segmentation-extension/9536">NVidia Clara AI-based automatic segmentation</a>, <a href="https://slicer.readthedocs.io/en/latest/user_guide/image_segmentation.html">segmentation tools</a> for ground truth training data generation, <a href="https://www.slicer.org/wiki/Documentation/Nightly/Modules/DeepInfer">DeepInfer extension</a> for Deep Learning, Tensorflow and MONAI compatibility.
     - title: <b>3D printing friendly</b>
@@ -120,7 +120,7 @@ features:
     - title: <b>4D data support</b>
       description: Time sequence visualization and analysis of any data types (volumes, models, segmentations, markups, etc.).
     - title: <b>Virtual Reality and Augmented Reality</b>
-      description: <a href="https://www.slicervr.org">Interact with scene in HTC, Oculus, Windows Mixed Reality systems</a>. Export data to HoloLens.
+      description: <a href="https://www.slicervr.org">Interact with scenes in HTC, Oculus, Windows Mixed Reality systems</a>. Export data to HoloLens.
     - title: <b>Surgical planning and guidance</b>
       description: <a href="https://www.slicerigt.org">Real-time data recording, analysis and replay from surgical navigation systems, ultrasound scanners cameras and trackers, OpenIGTLink connection with trackers, scanners</a>.
 
