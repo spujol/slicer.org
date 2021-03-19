@@ -97,7 +97,7 @@ carousel_images:
 # Features ======================================================
 features:
   title: Features
-  description: The development of 3D Slicer—including its numerous modules, extensions, datasets, pull requests, patches, issues reports, suggestions—is made possible by users, developers, contributors and commercial partners around the world.
+  description: The development of 3D Slicer—including its numerous modules, extensions, datasets, pull requests, patches, issues reports, suggestions—is made possible by users, developers, contributors and commercial partners around the world. The National Institutes of Health(NIH) of the USA has been a major contributor through a variety of competitive grants and contracts. See more information about funding sources <a href="https://slicer.readthedocs.io/en/latest/user_guide/about.html#funding-sources">here</a>.
   list:
     - title: <b>DICOM standard interoperability</b>
       description: <a href="https://slicer.readthedocs.io/en/latest/user_guide/modules/dicom.html">DICOM import and export, DICOMweb and classic DIMSE networking.</a> Support of a wide range of DICOM information objects, such as 2D, 3D, 4D images, segmentation objects, registration objects, structured reports, parametric maps, RT structure sets, RT plans, RT images, RT dose maps.
