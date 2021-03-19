@@ -173,7 +173,15 @@ Step-by-step:
 
 3. Update [_includes/head.html](./_includes/head.html) based on content of the generated file `assets/favicons/README.md`
 
-4. Remove extraneous files
+4. If missing, add front matter to [assets/favicons/browserconfig.xml](./assets/favicons/browserconfig.xml)
+
+  ```
+  ---
+  layout: null
+  ---
+  ```
+
+5. Remove extraneous files
 
   ```bash
   rm faviconData.json
@@ -181,7 +189,7 @@ Step-by-step:
   rm assets/favicons/apple-touch-icon-*.png
   ```
 
-5. Commit changes
+6. Commit changes
 
   ```bash
   git add favicon.json assets/favicons/* _includes/head.html
