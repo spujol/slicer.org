@@ -1,6 +1,9 @@
 name: build-website
 on:
-  push
+  push:
+    branches:
+      - master
+      - landing-page-redesign
 jobs:
   jekyll:
     runs-on: ubuntu-16.04
