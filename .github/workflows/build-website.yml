@@ -18,6 +18,6 @@ jobs:
     # Generate site using https://github.com/marketplace/actions/jekyll-actions
     - uses: helaili/jekyll-action@v2
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.SLICERBOT_GITHUB_TOKEN }}
         jekyll_src: '.'
         target_branch: 'slicer-org-preview'
