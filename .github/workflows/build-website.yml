@@ -27,6 +27,7 @@ jobs:
     - name: 🚀 deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
+        force_orphan: true
         github_token: ${{ secrets.SLICERBOT_GITHUB_TOKEN }}
         publish_dir: ./_site
         publish_branch: slicer-org-preview
