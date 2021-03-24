@@ -41,4 +41,4 @@
 - name: SlicerRadiomics
   description: A 3D Slicer extension enabling <b>quantitative characterization of imaging phenotype</b>.
   link: https://www.radiomics.io
-  image: assets/img/slicer-solutions/slicer-radiomics.jpg
+  image: assets/img/slicer-solutions/slicer-radiomics.png
