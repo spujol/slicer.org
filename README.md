@@ -1,6 +1,6 @@
 # Overview
 
-The ``slicer-org`` branch of this repository stores the source files used to generate the site deployed at https://slicer.org.
+The ``slicer-org`` branch of this repository stores the files deployed at https://slicer.org.
 
 The site is implemented using [jekyll static site generator](https://jekyllrb.com/) and uses the [Bulma clean theme](https://github.com/chrisrhymes/bulma-clean-theme).
 
@@ -25,9 +25,14 @@ The site is implemented using [jekyll static site generator](https://jekyllrb.co
 
 # Infrastructure
 
+The site is implemented using [jekyll static site generator](https://jekyllrb.com/) and uses the [Bulma clean theme](https://github.com/chrisrhymes/bulma-clean-theme).
+
 ## Synchronization
 
-_Coming soon_
+Every 5 minutes, the branch [slicer-org](https://github.com/Slicer/slicer.org/tree/slicer-org) is automatically pulled into the live site. There is no need to
+connect to the server in order to make changes.
+
+Each time the sources of the static site organized in the [master](https://github.com/Slicer/slicer.org/tree/master) are updated, the branch `slicer-org` is then automatically updated using the GitHub Action workflow described in [.github/workflows/build-website.yml](.github/workflows/build-website.yml).
 
 ## Pull Request preview
 
