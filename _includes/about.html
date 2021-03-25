@@ -3,7 +3,7 @@
     <div class="title is-2 anchored" id="{{ page.about.title | strip_html | slugify }}">{{ page.about.title }}</div>
     <div class="description is-size-5">{{ page.about.description }}</div>
   </div>
-  <div class="subtitle is-4 has-text-centered">{{ page.about.subtitle }}</div>
+  <div class="subtitle is-4 has-text-centered anchored">{{ page.about.subtitle }}</div>
   <div id="about_image_carousel" class="carousel has-text-centered">
     {% for item in page.carousel_images %}
       <div class="carousel-item">
