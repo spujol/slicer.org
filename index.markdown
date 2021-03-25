@@ -44,7 +44,7 @@ about:
   subtitle: 3D Slicer in action
   description: |
     <b>Desktop software</b> to solve advanced image computing challenges with a focus on clinical and biomedical applications.<br>
-    <b>Development platform</b> to quickly build and deploy custom solutions for research and commercial products, using free, open-source software.<br>
+    <b>Development platform</b> to quickly build and deploy custom solutions for research and commercial products, using free, open source software.<br>
     <b>Community</b> of knowledgeable users and developers working together to improve medical computing.
 
 # Carousel ==========================================================
