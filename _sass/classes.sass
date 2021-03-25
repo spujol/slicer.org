@@ -3,13 +3,6 @@
 .site-wrapper
   min-height: calc(100vh - #{$header-height + $footer-height}) // to keep footer at page bottom.
 
-// Workaround navbar issue on Safari ================================
-// See https://github.com/Slicer/slicer.org/issues/75
-.navbar
-  height: $navbar-height
-  & > .container
-    height: $navbar-height
-
 // general classes ================================
 .section-shadow
   box-shadow: 0 1px 5px rgba(0, 0, 0, .1)

@@ -3,6 +3,7 @@
 
 
 @import "variables";
+@import "classes";
 @import "../node_modules/bulma/bulma.sass";
 @import "../node_modules/bulma-block-list/src/block-list.scss";
-@import "classes";
+@import "workarounds";
