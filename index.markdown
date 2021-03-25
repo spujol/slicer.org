@@ -41,7 +41,7 @@ hero_buttons:
 # About ======================================================
 about:
   title: What is <b>3D Slicer</b> ?
-  subtitle: 3D Slicer in action
+  subtitle: See 3D Slicer in action
   description: |
     <b>Desktop software</b> to solve advanced image computing challenges with a focus on clinical and biomedical applications.<br>
     <b>Development platform</b> to quickly build and deploy custom solutions for research and commercial products, using free, open source software.<br>
