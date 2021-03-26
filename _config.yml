@@ -26,6 +26,9 @@ url: "https://slicer.org" # the base hostname & protocol for your site, e.g. htt
 logo_image: /assets/img/3D-Slicer-Mark.svg
 # favicons are directly specified in _includes/head.html
 
+# Google services
+google_analytics: UA-97117718-1
+
 # Build settings
 theme: bulma-clean-theme
 plugins:
