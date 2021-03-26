@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - master
-      - landing-page-redesign
 jobs:
   jekyll:
     runs-on: ubuntu-16.04
