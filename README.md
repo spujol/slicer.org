@@ -32,7 +32,7 @@ The site is implemented using [jekyll static site generator](https://jekyllrb.co
 Every 5 minutes, the branch [slicer-org](https://github.com/Slicer/slicer.org/tree/slicer-org) is automatically pulled into the live site. There is no need to
 connect to the server in order to make changes.
 
-Each time the sources of the static site organized in the [master](https://github.com/Slicer/slicer.org/tree/master) are updated, the branch `slicer-org` is then automatically updated using the GitHub Action workflow described in [.github/workflows/build-website.yml](.github/workflows/build-website.yml).
+Each time the sources of the static site organized in the [main](https://github.com/Slicer/slicer.org/tree/main) branch are updated, the branch `slicer-org` is then automatically updated using the GitHub Action workflow described in [.github/workflows/build-website.yml](.github/workflows/build-website.yml).
 
 ## Pull Request preview
 
@@ -212,4 +212,4 @@ Transition to GitHub for managing and serving the Slicer top level page was disc
 
 It is covered by the Slicer License:
 
-https://github.com/Slicer/slicer.org/blob/master/LICENSE
+https://github.com/Slicer/slicer.org/blob/main/LICENSE
