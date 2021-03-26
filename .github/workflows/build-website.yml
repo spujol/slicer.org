@@ -29,6 +29,6 @@ jobs:
         force_orphan: true
         github_token: ${{ secrets.SLICERBOT_GITHUB_TOKEN }}
         publish_dir: ./_site
-        publish_branch: slicer-org-preview
+        publish_branch: slicer-org
         user_name: 'Slicer Bot'
         user_email: 'slicerbot@users.noreply.github.com'
