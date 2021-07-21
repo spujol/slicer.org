@@ -149,7 +149,7 @@ See [commercial-use.markdown](./commercial-use.markdown)
 ## Useful links
 
 * [Bulma documentation](https://bulma.io/documentation/)
-* [Buma clean theme documentation](https://github.com/chrisrhymes/bulma-clean-theme#bulma-clean-theme)
+* [Bulma clean theme documentation](https://github.com/chrisrhymes/bulma-clean-theme#bulma-clean-theme)
 * [Jekyll static site generator](https://jekyllrb.com/docs/)
 
 ## Adding an internal page
